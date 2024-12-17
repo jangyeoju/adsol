@@ -9,7 +9,7 @@ import ContainerWrap from "@/app/components/layout/ContainerWrap";
 import SubBanner from "@/app/components/common/SubBanner";
 import Footer from "@/app/components/footer/Footer";
 import Link from "next/link";
-
+import TechSubNav from "@/app/components/nav/TechSubNav";
 export default function Technology() {
 
     const theme = createTheme({
@@ -26,7 +26,9 @@ export default function Technology() {
   return(
     <>
     <ThemeProvider theme={theme}>
-         <Nav select={"menu2"} page={"tech"}/>
+        <TechNavWrap>
+            <Nav select={"menu2"} page={"tech"}/>
+        </TechNavWrap>
          <TechnologyWrap>
             <SubBannerWrap>
                 <SubBanner title={"Technology"}>
@@ -391,6 +393,14 @@ export default function Technology() {
 
 }
 
+const TechNavWrap = styled(Box)`
+    position: relative;
+    height: 150px;
+    @media ${() => theme.device.mobile} {
+        height: 130px;
+    }
+`;
+
 const TechnologyWrap = styled(Box)`
         .sub-title{
             font-size: 3.5rem;
@@ -503,7 +513,7 @@ const TechnologyWrap = styled(Box)`
 
 const SubBannerWrap = styled(Box)`
     position: relative;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 `;
 
 
@@ -599,7 +609,7 @@ const TechnologySection1 = styled(Box)`
                 font-weight: 600;
                 strong{
                     font-size: 4rem;
-                    color: ${()=> theme.colors.primary};
+                    color: ${()=> theme.colors.primary2};
                 }
             }
             img{
@@ -880,7 +890,7 @@ const TechnologySection2 = styled(Box)`
         }
     }
     .background-img-box{
-        background-color:${()=> theme.colors.backgroundColor};
+        background-color:${()=> theme.colors.backgroundColor2};
     }
     @media ${() => theme.device.tablet} {
         .technology-title-wrap{
@@ -984,7 +994,7 @@ const TechnologySection3 = styled(Box)`
                 font-weight: 600;
                 strong{
                     font-size: 4rem;
-                    color: ${()=> theme.colors.primary};
+                    color: ${()=> theme.colors.primary2};
                 }
             }
             img{
@@ -1135,7 +1145,7 @@ const TechnologySection3 = styled(Box)`
                 .rays-graph{
                     width: 60%;
                     img{
-                        box-shadow: 0 0 20px rgba(211,206,255,.3);
+                        box-shadow: 0 0 20px rgba(0,0,0,.1);
                         width: 100%;
                     }
                 }

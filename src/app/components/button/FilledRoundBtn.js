@@ -9,7 +9,7 @@ export default function FilledRoundBtn({text, icon,handleClick}){
     const theme = createTheme({
         palette: {
             primary: {
-              main: "#5D62FF",
+              main: "#2B2B50",
             },
         },
     })
@@ -36,5 +36,5 @@ const FilledButton = styled(Button)`
     }
     @media ${() => theme.device.tablet} {
         font-size: 1.4rem;
-     }
+    }
 `;

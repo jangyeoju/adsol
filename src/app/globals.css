@@ -16,14 +16,44 @@
   }
 }
 
-font-face {
+/* @font-face {
   font-family: 'Pretendard';
   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
-}
+} */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* @font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-SemiBold";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff")
+    format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+ */
+/* 
+@font-face {
+  font-family: "Montserrat", serif;
+  src: url('../app/style/fonts/Montserrat-Bold.ttf') format('woff');
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+} */
+
 
 html {
   scroll-behavior: smooth;
@@ -127,6 +157,9 @@ input[type=number] {
   width: 100% !important;
 }
 
+.h-1{
+  height: 5rem !important;
+}
 .h-2{
   height: 6.5rem !important;
 }
@@ -172,3 +205,4 @@ input[type=number] {
   font-family: "Montserrat", serif;
   font-weight: bold;
 }
+
