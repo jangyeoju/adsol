@@ -44,7 +44,7 @@ export default function Contact() {
                             <div className="border"></div>
                         </div>
                         <div className="info-box">
-                            <h2>대표 문의</h2>
+                            <h2>Inquiries</h2>
                             <ul className="info-item">
                                 <li>
                                     <PhoneInTalkIcon/>
@@ -65,31 +65,30 @@ export default function Contact() {
                 <div className="contact-content">
                     <ContainerWrap>
                         <h1 className="title">
-                        어드밴스솔루션 찾아오시는길 
+                        Directions to Advance Solutions
                         </h1>
-                        <p className="sub-title-text">어드밴스솔루션 지도를 확인하세요</p>
+                        <p className="sub-title-text">Check the map of Advance Solutions</p>
                         <ul className="map-list">
                             <li className="map-item">
                                 <StyledWrapper apiKey={"AIzaSyBkNBxTatAowreaA0jgD4IqFy741UJnCL0"}>
                                     <Map1/>
                                 </StyledWrapper>
-                                <h2>본사</h2>
-                                <h3>경기도 안산시 상록구 한양대학로 55, 창업보육센터 527호(사동)</h3>
+                                <h2>Headquarters </h2>
+                                <h3>527, Startup Incubation Center, 55 Hanyangdaehak-ro, Sangnok-gu, Ansan-si, Gyeonggi-do, South Korea (Sadong)</h3>
                             </li>
                             <li className="map-item">
                                 <StyledWrapper apiKey={"AIzaSyBkNBxTatAowreaA0jgD4IqFy741UJnCL0"}>
                                     <Map2/>
                                 </StyledWrapper>
-                                <h2>군포지사</h2>
-                                <h3>경기도 군포시 엘에스로 13, 신일IT유토지식산업센터 1303호</h3>
+                                <h2>Branch Office</h2>
+                                <h3>1303, Shinil IT Uto Knowledge Industrial Center, 13 LS-ro, Dangjeong-dong, Gunpo-si, Gyeonggi-do, South Korea</h3>
                             </li>   
                             <li className="map-item">
                                 <StyledWrapper apiKey={"AIzaSyBkNBxTatAowreaA0jgD4IqFy741UJnCL0"}>
                                     <Map3/>
                                 </StyledWrapper>
-                                <h2>기업부설연구소</h2>
-                                <h3>경기도 성남시 수정구 대왕판교로 815, 
-                                판교창업존 780호(기업지원허브)</h3>
+                                <h2>Corporate R&D Center</h2>
+                                <h3>780, Pangyo Startup Zone, Business Support Hub, 815 Daewangpangyo-ro, Sujeong-gu, Seongnam-si, Gyeonggi-do, South Korea</h3>
                             </li>
                         </ul>
                     </ContainerWrap>

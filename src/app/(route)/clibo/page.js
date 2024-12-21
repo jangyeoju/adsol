@@ -37,18 +37,16 @@ export default function Clibo() {
                 <SubBannerWrap>
                     <SubBanner title={"Product"}>
                         <p>
-                        청정로봇(CLIBO) 
+                        Sterilization Robot (CLIBO)
                         </p>
                     </SubBanner>
                 </SubBannerWrap>
                 <div className="content-wrap2">
                     <h2 className="sub-title">
-                        실내 다중 이용시설 방역로봇 CLIBO
+                    Indoor Multi-Purpose Facility<br/> Disinfection Robot CLIBO
                     </h2>
                     <p className="sub-title-detail">
-                    사람들이 생활하는 모든 환경에서
-                    미세먼지와  바이러스, <br/>
-                    세균으로로부터 사람들을 보호합니다.
+                    It protects people from fine dust, viruses,<br/>and bacteria in all environments where people live.
                     </p>
                     <div className="clibo-img-wrap">
                         <img src="/img/product/side-img1.png" id="content-img1"/>
@@ -59,48 +57,40 @@ export default function Clibo() {
                 <BackgroundBanner>
                     <ContainerWrap>
                         <h2>
-                            <strong className="montserrat">CLIBO</strong>로<br/>
-                            바이러스 없는 깨끗한 공기를 누리세요.
+                          
+                            Enjoy clean air free from viruses<br/> with <strong className="montserrat">CLIBO</strong>
                         </h2>
-                        <FilledRoundBtn text={"방역 및 청정 전문가 크리보"}/>
+                        <FilledRoundBtn text={"Disinfection and Clean Air Expert, CLIBO"}/>
                     </ContainerWrap>
                 </BackgroundBanner>
                 <div className="content-wrap background-img">
                     <Container>
                         <h2>
-                            <strong className="montserrat">CLIBO</strong>는
+                            <strong className="montserrat">CLIBO</strong>
                         </h2>
                         <p>
-                            실내다중이용시설내의 
-                            접촉바이러스,
-                            공기 살균,<br/>
-                            공기 정화를 수행합니다.
-                            배터리와 필터를 자동 교체합니다.<br/>
-                            생산비용이 절감되고,
-                            기간이 단축됩니다.
-                            <br/>
-                            고객의 요구에 대응 가능합니다.
+                        performs disinfection of contact viruses, air sterilization,<br/> and air purification in indoor multi-purpose facilities. <br/>It automatically replaces the battery and filter,<br/> reducing production costs and<br/> shortening the timeline.<br/> It can respond to customer needs.
                         </p>
                         <ul className="clibo-info-list">
                             <li>
                                 <CheckIcon/>
-                                다수의 특허기술을 적용
+                                Equipped with Multiple Patented Technologies
                             </li>
                             <li>
                                 <CheckIcon/>
-                                금형없는 외함 기술
+                                Mold-free Enclosure Technology
                             </li>
                             <li>
                                 <CheckIcon/>
-                                인체 무해 살균 광원
+                                Human-Safe Sterilization Light Source
                             </li>
                             <li>
                                 <CheckIcon/>
-                                배터리 및 필터 교체스테이션
+                                Automatic filter and battery replacement station.
                             </li>
                             <li>
                                 <CheckIcon/>
-                                K-design Award 수상
+                                K-Design Award Winner
                             </li>
                         </ul>
                     </Container>
@@ -110,15 +100,16 @@ export default function Clibo() {
                         <div className="content-wrap" id="sec1">
                             <div className="content-title-wrap">
                                 <div className="content-title-box">
-                                    <h2>CLIBO 구성</h2> 
+                                    <h2>CLIBO Configuration</h2> 
                                 </div>
                                 <div className="content-info-list">
-                                    <h3>대면적 자율주행 방역 로봇</h3>
+                                    <h3>Large Area Autonomous Disinfection Robot</h3>
                                     <ul className="content-detail-info-list">
-                                        <li>어드밴스 솔루션만의 3개 기술 적용 (외함기술 AHS, 로봇기술 ARS, 광원기술 ASS)</li>
-                                        <li>표면 및 공기 살균 기능</li>
-                                        <li>미세먼지 정화 기능</li>
-                                        <li>배터리 및 필터 자동 교체</li>
+                                        <li>3 Unique Technologies by Advance Solution<br/>
+                                        (Enclosure Technology AHS, Robot Technology ARS, Light Source Technology ASS)</li>
+                                        <li>Surface and Air Sterilization Function</li>
+                                        <li>Fine Dust Removal Function</li>
+                                        <li>Automatic Battery and Filter Replacement</li>
                                     </ul>
                                 </div>
                             </div>
@@ -133,15 +124,15 @@ export default function Clibo() {
                         <div className="content-wrap" id="sec2">
                             <div className="content-title-wrap">
                                 <div className="content-title-box">
-                                    <h2>CLIBO의 청정 기능</h2> 
+                                    <h2>CLIBO's Clean Function</h2> 
                                 </div>
                                 <div className="content-info-list">
-                                    <h3>표면 및 공기 살균 기능 + 미세먼지 정화 기능</h3>
+                                    <h3>Surface and Air Sterilization Function + Fine Dust Removal Function</h3>
                                     <ul className="content-detail-info-list">
-                                        <li>인체에 무해한 살균 광원을 통한 외부 표면 및 공기 살균</li>
-                                        <li>살균 효과가 높은 UV-C(자외선) 살균 광원을 통한 내부 공기 살균</li>
-                                        <li>헤파필터와 배기 팬을 통한 미세먼지 정화</li>
-                                        <li>스테이션을 통한 폐필터와 새필터 자동 교체</li>
+                                        <li>Sterilization of external surfaces and air using a human-safe sterilization light source</li>
+                                        <li>Air sterilization inside using a high-sterilization UV-C (Ultraviolet) light source</li>
+                                        <li>Fine dust removal through a HEPA filter and exhaust fan</li>
+                                        <li>Automatic replacement of used filters with new ones through the station</li>
                                     </ul>
                                 </div>
                             </div>
@@ -156,8 +147,7 @@ export default function Clibo() {
                                             </div>
                                         </div>
                                         <p>
-                                            안전한 수납형 자외선 광원으로 <br/>
-                                            공기 중 부유 바이러스 살균
+                                        Sterilization of airborne viruses<br/> with a safe, storage-type UV light source
                                         </p>
                                     </li>
                                     <li>
@@ -169,7 +159,7 @@ export default function Clibo() {
                                             </div>
                                         </div>
                                         <p>
-                                        헤파 필터로 미세먼지 공기정화
+                                        Fine dust air purification<br/> using a HEPA filter
                                         </p>
                                     </li>
                                 </ul>
@@ -182,22 +172,22 @@ export default function Clibo() {
                         <div className="content-wrap" id="sec3">
                             <div className="content-title-wrap">
                                 <div className="content-title-box">
-                                    <h2>CLIBO 적용 기술</h2> 
+                                    <h2>CLIBO Applied Technologies</h2> 
                                 </div>
                                 <div className="content-info-list">
-                                    <h3>스테이션 기술 + 디자인기술 + 자율주행 기술</h3>
-                                    <div className="dp-wrap">
+                                    <h3>Station + Design + Autonomous Driving Technology</h3>
+                                    <div>
                                         <ul className="content-detail-info-list">
-                                            <li>폐필터 제거 및 새필터 자동 교체</li>
-                                            <li>방전 배터리 제거 및 완충 배터리 자동 교체</li>
-                                            <li>기능성,경제성,심미성이 반영 된 디자인</li>
-                                            <li>K-DESIGN AWARD 24 선정</li>
+                                            <li>Automatic removal of used filters and replacement with new ones</li>
+                                            <li>Automatic removal of discharged batterie and replacement with fully charged ones</li>
+                                            <li>Design Reflecting Functionality, Economy, and Aesthetics</li>
+                                            <li>K-Design Award Winner</li>
                                         </ul>
                                         <ul className="content-detail-info-list">
-                                            <li>오염된 지역을 선행 청정하는 주행 알고리즘</li>
-                                            <li>전력 효율성을 위한 상시전원 및 배터리 자동 스왑</li>
-                                            <li>금형 최소화 및 공용 부품 사용시 나사 자국 하나 없는  외함</li>
-                                            <li>모듈러 구조 및 생산성 향상, 관리를 위한 원터치식 결합 방식</li>
+                                            <li>Driving algorithm for pre-cleaning contaminated areas</li>
+                                            <li>Continuous power supply and automatic battery swap for energy efficiency</li>
+                                            <li>Mold minimization and enclosure with no screw marks when using common parts</li>
+                                            <li>Modular structure, improved productivity, and one-touch coupling method for easy management</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -215,10 +205,7 @@ export default function Clibo() {
                   <strong className="montserrat">CLIBO</strong> by Advance-Solution
                 </h1>
                 <p>
-                공공기관인  학교, 병원, 공항과
-                렌탈서비스 대상인 병원, 요양원, 산후조리원<br/>
-                일판 판매 대상인 물류센터, 식품 공장, 육가공 공장, 축사 등에서<br/>
-                표면 살균 및 청정을 통해 대기질을 개선하고 시민의 안전을 지키기 위해 사용됩니다.
+                Targeted for Public Institutions such as schools, hospitals, airports, and rental services for hospitals,<br/> nursing homes, and postpartum care centers, as well as for logistics centers,<br/> food factories, meat processing plants, and barns in Japan, the robot is used to improve air quality<br/> through surface sterilization and purification, ensuring the safety of citizens.
                 </p>
                 <ul className="solution-list">
                   <li>
@@ -230,11 +217,11 @@ export default function Clibo() {
                   </li>
                   <li>
                       <img src="/img/main/icon/icon1.svg"/>
-                      <h2>렌탈서비스</h2>
+                      <h2>Rental Services</h2>
                       <p>
-                        병원<br/>
-                        요양원<br/>
-                        산후조리원
+                      Hospitals<br/>
+                      Nursing Homes<br/>
+                      Postpartum Care Centers
                       </p>
                       <div className="add-icon">
                         <img src="/img/main/icon/add.svg" />
@@ -242,10 +229,10 @@ export default function Clibo() {
                   </li>
                   <li>
                       <img src="/img/main/icon/icon2.svg"/>
-                      <h2>공공기관</h2>
+                      <h2>Public Institutions</h2>
                       <p>
-                        조달청<br/>
-                        혁신제품
+                      Public Procurement Service<br/>
+                      Innovative Products
                       </p>
                       <div className="add-icon">
                         <img src="/img/main/icon/add.svg"/>
@@ -253,11 +240,12 @@ export default function Clibo() {
                   </li>
                   <li>
                       <img src="/img/main/icon/icon3.svg"/>
-                      <h2>일반판매</h2>
+                      <h2>General Sales</h2>
                       <p>
-                      물류센터<br/>
-                      식품 공장육<br/>
-                      가공공장축사
+                      Logistics Centers<br/>
+                      Food Factories<br/>
+                      Meat Processing Plants<br/>
+                      Barns
                       </p>
                   </li>
                 </ul>
@@ -370,7 +358,7 @@ const ProductWrap = styled(Box)`
                 background-color: rgba(249,249,255,.6);
                 border-radius: 8px;
                 padding: 2rem;
-                width: 380px;
+                width: 580px;
                 margin-top: 5rem;
                 li{
                     display: flex;
@@ -452,11 +440,15 @@ const ProductWrap = styled(Box)`
         .background-img{
             p{
                 font-size: 1.6rem;
+                br{
+                    display: none;
+                }
             }
             .clibo-info-list{
-                width: 100%;
+                width: 80%;
                 li{
                     font-size: 1.4rem;
+                    align-items: flex-start;
                 }
             }
         }
@@ -473,6 +465,11 @@ const ProductWrap = styled(Box)`
         }
         .clibo-img-wrap{
             margin-top: 2rem;
+        }
+        .background-img{
+            .clibo-info-list{
+                width: 100%;
+            }
         }
     }
 
@@ -533,10 +530,10 @@ const BackgroundBanner = styled(Box)`
 const ContentSection = styled(Box)`
     .content-title-wrap{
         display: flex;
-        align-items: center;
+        align-items: stretch; 
         justify-content: space-between;
         .content-title-box{
-            /* width: 30%; */
+            width: 30%;
             min-width: 300px;
             background-color: ${()=> theme.colors.primary};
             border-radius: 8px;
@@ -544,11 +541,12 @@ const ContentSection = styled(Box)`
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 130px;
+   
             h2{
                 font-size: 2.8rem;
                 font-weight: bold;
                 color: #fff;
+                text-align: center;
             }
         }
         .content-info-list{
@@ -741,13 +739,13 @@ const SolutionWrap = styled(Box)`
         height: 25px;
       }
       h2{
-        font-size: 2.4rem;
+        font-size: 2.2rem;
         font-weight: bold;
         color : ${()=> theme.colors.textColor};
         margin: 1rem 0 1.5rem 0;
       }
       p{
-        font-size: 2rem;
+        font-size: 1.6rem;
         text-align: left;
         line-height: 150%;
         margin-top: 0;

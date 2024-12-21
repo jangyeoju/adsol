@@ -30,9 +30,7 @@ export default function Vision() {
                         <ContainerWrap>
                             <h1 className="montserrat">Vision</h1>
                             <p>
-                                어드밴스솔루션은 다른 시각으로,<br/>
-                                지금 실현 가능한 기술로 로봇 생태계에서<br/>
-                                가치있는 변화를 만들어갑니다.
+                            Advance Solutions creates valuable changes<br/> in the robot ecosystem with technologies that<br/> are currently feasible from a different perspective.
                             </p>
                             <img src="/img/logo_w.svg" alt="logo-img" />
                         </ContainerWrap>
@@ -47,7 +45,7 @@ export default function Vision() {
                                     <h2>AHS</h2>
                                     <p>
                                         Advanced Housing Solution<br/>
-                                        금형 없이 만드는 로봇 외함 기술 
+                                        Robot enclosure technology <br/>made without molds
                                     </p>
                                 </li>
                                 <li>
@@ -57,7 +55,7 @@ export default function Vision() {
                                     <h2>ASS</h2>
                                     <p>
                                     Advanced Safe Sterilizing-light<br/>
-                                    사람에게 안전한 살균광원 기술
+                                    Sterilization light source technology<br/> that is safe for humans
                                     </p>
                                 </li>
                                 <li>
@@ -67,7 +65,7 @@ export default function Vision() {
                                     <h2>ARS</h2>
                                     <p>
                                     Advanced Robot Station<br/>
-                                    최적의 로봇 솔루션  
+                                    Optimal robot solution
                                     </p>
                                 </li>
                             </ul>
@@ -79,7 +77,7 @@ export default function Vision() {
                            <h1 className="title montserrat">
                                What you Need, What you Want
                            </h1>
-                           <p className="sub-title-text">당신이 필요로 하는, 당신이 원하는 로봇 솔루션</p>
+                           <p className="sub-title-text">Robot solutions you need, robot solutions you want</p>
                             <div className="vision-img">
                                 <img src="/img/vision/content.png" alt="vision-img" />
                             </div>

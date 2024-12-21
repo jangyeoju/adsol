@@ -169,6 +169,9 @@ input[type=number] {
 .h-3{
   height: 13.5rem !important;
 }
+.h-4{
+  height: 19rem !important;
+}
 
 .h-auto{
   height: auto !important;

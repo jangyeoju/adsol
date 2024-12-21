@@ -180,7 +180,7 @@ export default function Nav({select , page,props}){
                                         aria-expanded={open ? 'true' : undefined}
                                         onClick={handleClick}
                                     >
-                                        어드밴스솔루션
+                                         Advance Solution
                                     </Button>
                                     <StyledMenu
                                         id="basic-menu"
@@ -191,9 +191,9 @@ export default function Nav({select , page,props}){
                                         'aria-labelledby': 'basic-button',
                                         }}
                                     >
-                                        <Link href="/vision"><MenuItem onClick={handleClose}>비전</MenuItem></Link>
-                                        <Link href="/now"><MenuItem onClick={handleClose}>현재</MenuItem></Link>
-                                        <Link href="/contact"><MenuItem onClick={handleClose}>문의하기 & 찾아오는 곳</MenuItem></Link>
+                                        <Link href="/vision"><MenuItem onClick={handleClose}>Vision</MenuItem></Link>
+                                        <Link href="/now"><MenuItem onClick={handleClose}>Now</MenuItem></Link>
+                                        <Link href="/contact"><MenuItem onClick={handleClose}>Contact Us</MenuItem></Link>
                                     </StyledMenu>
                                 </li>
                                 <li>
@@ -205,7 +205,7 @@ export default function Nav({select , page,props}){
                                         aria-expanded={open1 ? 'true' : undefined}
                                         onClick={handleClick2}
                                     >
-                                        기술 및 제품
+                                        Technology and Products
                                     </Button>
                                     <StyledMenu
                                         id="basic-menu"
@@ -216,10 +216,10 @@ export default function Nav({select , page,props}){
                                         'aria-labelledby': 'basic-button',
                                         }}
                                     >
-                                        <Link href="/technology"><MenuItem onClick={handleClose2}>외함 기술 (AHS)</MenuItem></Link>
-                                        <Link href="/technology#sec2"><MenuItem onClick={handleClose2}>로봇 기술 (ARS)</MenuItem></Link>
-                                        <Link href="/technology#sec3"><MenuItem onClick={handleClose2}>광원 기술 (ASS)</MenuItem></Link>
-                                        <Link href="/clibo"><MenuItem onClick={handleClose2}>청정로봇 (CLIBO)</MenuItem></Link>
+                                        <Link href="/technology"><MenuItem onClick={handleClose2}>Enclosure Technology (AHS)</MenuItem></Link>
+                                        <Link href="/technology#sec2"><MenuItem onClick={handleClose2}>Robot technology (ARS)</MenuItem></Link>
+                                        <Link href="/technology#sec3"><MenuItem onClick={handleClose2}>Light Source Technology (ASS)</MenuItem></Link>
+                                        <Link href="/clibo"><MenuItem onClick={handleClose2}>CLIBO</MenuItem></Link>
                                     </StyledMenu>
                                 </li>
                                 <li>
@@ -231,7 +231,7 @@ export default function Nav({select , page,props}){
                                         aria-expanded={open3 ? 'true' : undefined}
                                         onClick={handleClick3}
                                     >
-                                    소식 및 자료
+                                        News and data
                                     </Button>
                                     <StyledMenu
                                         id="basic-menu"
@@ -242,7 +242,7 @@ export default function Nav({select , page,props}){
                                         'aria-labelledby': 'basic-button',
                                         }}
                                     >
-                                        <Link href="/news"><MenuItem onClick={handleClose3}>뉴스&자료</MenuItem></Link>
+                                        <Link href="/news"><MenuItem onClick={handleClose3}>News & data</MenuItem></Link>
                                     </StyledMenu>
                                 </li>
                             </ul>
@@ -250,12 +250,12 @@ export default function Nav({select , page,props}){
                     </ContainerWrap>
                 {
                     page == "tech" ?
-                    <TechSubNav text1={"외함 기술(AHS)"} text2={"로봇 기술 (ARS)"} text3={"광원 기술 (ASS)"}/>
+                    <TechSubNav text1={"Enclosure Technology (AHS)"} text2={"Robot technology (ARS)"} text3={"Light Source Technology (ASS)"}/>
                     : <></>
                 }
                  {
                     page == "clibo" ?
-                    <TechSubNav text1={"CLIBO 구성"} text2={"CLIBO 청정 기능"} text3={"CLIBO 적용 기술"}/>
+                    <TechSubNav text1={"CLIBO Configuration"} text2={"CLIBO's Clean Function"} text3={"CLIBO Applied Technologies"}/>
                     : <></>
                 }
                 </div>

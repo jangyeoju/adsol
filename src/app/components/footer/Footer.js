@@ -27,9 +27,9 @@ export default function Footer({select}){
                         </div>
                         <div className="footer-info">
                             <p>
-                            본사 : 경기도 안산시 상록구 한양대학로55, 창업보육센터 527호(사동) <br/>
-                            지사 : 경기도 군포시 엘에스로 13, 신일IT유토지식산업센터 1303호(당정동)<br/>
-                            기업부설연구소 : 경기도 성남시 수정구 대왕판교로 815, 기업지원허브 판교창업존 780호<br/>
+                            Headquarters: 527, Startup Incubation Center, 55 Hanyangdaehak-ro, Sangnok-gu, Ansan-si,<br/> Gyeonggi-do, South Korea (Sadong) <br/>
+                            Branch Office: 1303, Shinil IT Uto Knowledge Industrial Center, 13 LS-ro,<br/> Dangjeong-dong, Gunpo-si, Gyeonggi-do, South Korea<br/>
+                            Corporate R&D Center: 780, Pangyo Startup Zone, Business Support Hub, 815 Daewangpangyo-ro,<br/> Sujeong-gu, Seongnam-si, Gyeonggi-do, South Korea<br/>
                             Tel : 070.8887.0625 / E-mail : adsol@adsol.kr
                             </p>
                             <h5>© ADVANCE SOLUTION CO. LTD 2025</h5>

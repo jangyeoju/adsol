@@ -15,6 +15,8 @@ import Tab from '@mui/material/Tab';
 import NewsBox from "@/app/components/common/NewsBox";
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import BasicModal from "@/app/components/modal/BasicModal";
+import AddIcon from '@mui/icons-material/Add';
+
 function CustomTabPanel(props) {
     const { children, value, index, ...other } = props;
   
@@ -168,6 +170,7 @@ export default function Clibo() {
                     </SubBanner>
                 </SubBannerWrap>
                 <ContainerWrap>
+                    <UploadButton variant="contained" color="primary" href="/news/admin/upload"><AddIcon/>게시물 올리기</UploadButton>
                     <TabBoxWrap sx={{ width: '100%' }}>
                         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                             <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
@@ -177,32 +180,32 @@ export default function Clibo() {
                             </Tabs>
                         </Box>
                         <StyledCustomTabPanel value={value} index={0}>
-                            <NewsBox img={"/img/news/news1.png"} title={"Innovation in Clean Services"} handle={handleClickOpen}/>
+                            <NewsBox img={"/img/news/news1.png"} title={"Innovation in Clean Services"} handle={handleClickOpen} edit={true}/>
                             <BasicModal open={open} handleClose={handleClose} text={"Innovation in Clean Services"} img={"/img/news/news1.png"}/>
 
-                            <NewsBox img={"/img/news/news2.png"} title={"Participation in RoboWorld 2024"} handle={handleClickOpen2}/>
+                            <NewsBox img={"/img/news/news2.png"} title={"Participation in RoboWorld 2024"} handle={handleClickOpen2} edit={true}/>
                             <BasicModal open={open2} handleClose={handleClose2} text={"Participation in RoboWorld 2024"} img={"/img/news/news2.png"}/>
 
-                            <NewsBox img={"/img/news/news3.png"} title={"Selected by Korea Hydro & Nuclear Power (KHNP)"} handle={handleClickOpen3}/>
+                            <NewsBox img={"/img/news/news3.png"} title={"Selected by Korea Hydro & Nuclear Power (KHNP)"} handle={handleClickOpen3} edit={true}/>
                             <BasicModal open={open3} handleClose={handleClose3} text={"Selected by Korea Hydro & Nuclear Power (KHNP)"} img={"/img/news/news3.png"}/>
 
-                            <NewsBox img={"/img/news/news4.png"} title={"Excellence Award at the Startup Competition"} handle={handleClickOpen4}/>
+                            <NewsBox img={"/img/news/news4.png"} title={"Excellence Award at the Startup Competition"} handle={handleClickOpen4} edit={true}/>
                             <BasicModal open={open4} handleClose={handleClose4} text={"Excellence Award at the Startup Competition"} img={"/img/news/news4.png"}/>
 
-                            <NewsBox img={"/img/news/news5.png"} title={"Minister of Small and Medium Enterprises and Startups Award"} handle={handleClickOpen5}/>
+                            <NewsBox img={"/img/news/news5.png"} title={"Minister of Small and Medium Enterprises and Startups Award"} handle={handleClickOpen5} edit={true}/>
                             <BasicModal open={open5} handleClose={handleClose5} text={"Minister of Small and Medium Enterprises and Startups Award"} img={"/img/news/news5.png"}/>
 
-                            <NewsBox img={"/img/news/news6.png"} title={"Participation in CES 2024"} handle={handleClickOpen6}/>
+                            <NewsBox img={"/img/news/news6.png"} title={"Participation in CES 2024"} handle={handleClickOpen6} edit={true}/>
                             <BasicModal open={open6} handleClose={handleClose6} text={"Participation in CES 2024"} img={"/img/news/news6.png"}/>
                         </StyledCustomTabPanel>
                         <StyledCustomTabPanel value={value} index={1}>
-                            <NewsBox img={"/img/news/document1.png"} title={"2024 CLIBO Catalog"} handle={handleClickOpen7}/>
+                            <NewsBox img={"/img/news/document1.png"} title={"2024 CLIBO Catalog"} handle={handleClickOpen7} edit={true}/>
                             <BasicModal open={open7} handleClose={handleClose7} text={"2024 CLIBO Catalog"} img={"/img/news/document1.png"}/>
 
-                            <NewsBox img={"/img/news/document2.png"} title={"2022 AVS Catalog"} handle={handleClickOpen8}/>
+                            <NewsBox img={"/img/news/document2.png"} title={"2022 AVS Catalog"} handle={handleClickOpen8} edit={true}/>
                             <BasicModal open={open8} handleClose={handleClose8} text={"2022 AVS Catalog"} img={"/img/news/document2.png"}/>
                            
-                            <NewsBox img={"/img/news/document3.png"} title={"2021 AVS Catalog"} handle={handleClickOpen9}/>
+                            <NewsBox img={"/img/news/document3.png"} title={"2021 AVS Catalog"} handle={handleClickOpen9} edit={true}/>
                             <BasicModal open={open9} handleClose={handleClose9} text={"2021 AVS Catalog"} img={"/img/news/document3.png"}/>
                         </StyledCustomTabPanel>
                         <StyledCustomTabPanel value={value} index={2}>
@@ -268,7 +271,7 @@ const StyledCustomTabPanel = styled(CustomTabPanel)`
     &>div{
         padding: 0;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 1rem;
@@ -295,4 +298,18 @@ const NoneBox = styled(Box)`
         margin-top: 1rem;
     }
     
+`;
+
+const UploadButton = styled(Button)`
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Pretendard-Bold';
+    margin-top: 2rem;
+    width: 100%;
+    background-color: ${()=> theme.colors.primary2};
+    svg{
+        width: 24px;
+        height: 24px;
+        margin-right: 1rem;
+    }
 `;

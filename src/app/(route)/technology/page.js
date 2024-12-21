@@ -33,9 +33,7 @@ export default function Technology() {
             <SubBannerWrap>
                 <SubBanner title={"Technology"}>
                     <p>
-                    어드밴스솔루션은
-                    다른 시각으로 지금 실현 가능한 <br/>
-                    변화를 만드는 ROBOT 솔루션 기업입니다.  
+                    Advance Solutions is a ROBOT solution company<br/> that makes realizable changes now with a different perspective.
                     </p>
                 </SubBanner>
             </SubBannerWrap>
@@ -43,37 +41,23 @@ export default function Technology() {
                 <ul className="technology-info-box">
                     <li>
                         <h5>01</h5>
-                        <h3>융합 기술 결정체</h3>
+                        <h3>convergence technology crystal</h3>
                         <p>
-                            융합 기술의 결정체인 로봇의 <br/>
-                            핵심 제조 기술을 보유하여<br/>
-                            로봇의 종류에 구애 받지 않고 편리하고 <br/>
-                            빠르게 가격 경쟁력 있는 로봇을<br/>
-                            개발 및 생산합니다.
+                        It has core manufacturing technology of robots, the crystallization of convergence technology, to develop and produce convenient and fast price competitive robots regardless of the type of robot.
                         </p>
                     </li>
                     <li>
                         <h5>02</h5>
-                        <h3>자체 개발 고유 로봇</h3>
+                        <h3>Independently Developed Proprietary Robot</h3>
                         <p>
-                        자체 역량을 기반으로 새로운 아이템을 <br/>
-                        개발하고, 핵심 부품 내재화 전략을 통해 <br/>
-                        국내 가공 및 제작을 택하여 원가를 <br/>
-                        절감하고 개선하여 이를 통해 <br/>
-                        어드밴스솔루션만의 혁신적인 <br/>
-                        고유 로봇을 제공합니다.
+                        Based on our in-house capabilities, we develop new items and adopt a strategy of internalizing key components. By choosing domestic processing and manufacturing, we reduce costs and drive improvements, delivering innovative and unique robots exclusively from Advance Solution.
                         </p>
                     </li>
                     <li>
                         <h5>03</h5>
-                        <h3>별도 제작 가능</h3>
+                        <h3>Can be made separately</h3>
                         <p>
-                            H/W, S/W, AI까지 모든 기술을 자체  <br/>
-                            개발하여 로봇 개발 시 필요에 맞는  <br/>
-                            기능과 디자인을 갖춘 로봇으로 별도  <br/>
-                            제작하여 양산이 가능합니다. <br/>
-                            (맞춤형 설계, 부품 별 커스터마이징, <br/>
-                            AHS을 기반으로 한 외함 양산)
+                        All technologies, including H/W, S/W, and AI, can be developed on their own and mass-produced separately as robots with functions and designs suitable for the needs of robot development. (Customized design, customization for each part, mass production of enclosures based on AHS)
                         </p>
                     </li>
                 </ul>
@@ -83,8 +67,7 @@ export default function Technology() {
                             <div>
                                 <h2 className="montserrat">Module</h2>
                                 <p>
-                                어드밴스솔루션은 다른 시각으로 지금 실현 가능한 <br/>
-                                변화를 만드는 ROBOT 솔루션 기업입니다.  
+                                Advance Solutions is a ROBOT solution company that makes realizable changes now with a different perspective.  
                             </p>
                             </div>
                             <div className="product-img">
@@ -104,52 +87,50 @@ export default function Technology() {
                     <ul className="technology-title">
                         <li>
                             <h5>01</h5>
-                            <h2>외함기술 <strong className="montserrat">AHS</strong></h2>
+                            <h2>Enclosure Technology<strong className="montserrat"> AHS</strong></h2>
                             <img src="/img/technology/Arrow.svg" />
                         </li>
                         <li>
                             <p>
-                            금형 없이 공용 부품과 원터치 결합 방식으로 제작 비용을 절감하고, <br/>
-                            생산 기간을 단축 모듈화 구조로 다양한 디바이스에 대응이 가능하고 <br/>
-                            고객 요청에 맞게 대응이 가능
-                            디자인적 요소를 적용하여  <br/>
-                            K-Design award winner를 수상
+                            By using standardized components and a one-touch assembly method without molds, production costs are reduced, and manufacturing lead times are shortened.
+                            The modular structure enables compatibility with various devices and customization based on customer requests.
+                            By applying design elements, we were recognized as a K-Design Award Winner.
                             </p>
                         </li>
                     </ul>   
                     <div className="ahs-box-wrap">
                         <div className="ahs1 ahs-box">
-                            <h3>모듈화 구조</h3>
-                            <p>모듈화된 구조로 다양한 디바이스에 대응 </p>
+                            <h3>Modular Structure</h3>
+                            <p>Compatible with various devices through a modular structure. </p>
                         </div>
                         <div className="ahs-box-wrap2">
                             <div className="ahs2 ahs-box">
-                                <h3>원터치 결속 기술</h3>
-                                <p>원터치 결합기술로 생산 효율성 향상</p>
+                                <h3>One-Touch Assembly<br/> Technology</h3>
+                                <p>Improves production efficiency with<br/> one-touch assembly technology.</p>
                             </div>
                             <div className="ahs3 ahs-box">
-                                <h3>공용 부품</h3>
-                                <p>공용화된 부품을 사용한 다양한 라인업 </p>
+                                <h3>Standardized Components</h3>
+                                <p>Enables diverse product lineups<br/> using standardized components.</p>
                             </div>
                         </div>
                     </div>
                 </ContainerWrap>         
                 <div className="cost-wrap">
                     <ContainerWrap>
-                        <h2 className="sub-title">비용 및 제작 기간</h2>
-                        <p className="sub-title-detail">제작비용 및 최소 주문수량 감소, 제작 기간 단축 </p>
+                        <h2 className="sub-title">Cost and Manufacturing Time</h2>
+                        <p className="sub-title-detail">Reduces production costs and minimum order quantities while shortening lead times. </p>
                         <ul className="cost-box-wrap">
                             <li className="cost-box" id="cost1">
-                                <h5>최소 주문수량</h5>
-                                <h3>97% 감소</h3>
+                                <h5>Minimum Order Quantity</h5>
+                                <h3>Reduced by 97%</h3>
                             </li>
                             <li className="cost-box" id="cost2">
-                                <h5>가격 경쟁력</h5>
-                                <h3>80% 절감</h3>
+                                <h5>Price Competitiveness</h5>
+                                <h3>80% cost reduction</h3>
                             </li>
                             <li className="cost-box" id="cost3">
-                                <h5>신속한 제작</h5>
-                                <h3>75% 단축</h3>
+                                <h5>Rapid Production</h5>
+                                <h3>75% reduction</h3>
                             </li>
                         </ul>
                     </ContainerWrap>
@@ -162,14 +143,13 @@ export default function Technology() {
                         <ul className="technology-title">
                             <li>
                                 <h5>02</h5>
-                                <h2>로봇 기술 <strong className="montserrat">ARS</strong></h2>
+                                <h2>Robot Technology<strong className="montserrat"> ARS</strong></h2>
                                 <img src="/img/technology/Arrow2.svg" />
                             </li>
                             <li>
                                 <p>
-                                오염된 지역을 선제적으로 청정하는 오염지향성 주행 기술
-                                관리 <br/>
-                                인력 없이 필터 및 배터리를 자동으로 교체하는 자동 스테이션 기술 
+                                Technology for contamination-oriented driving management that preemptively cleans contaminated areas.
+                                Automated station technology that replaces filters and batteries without human intervention.
                                 </p>
                             </li>
                         </ul>
@@ -177,20 +157,18 @@ export default function Technology() {
                 </div>    
                 <div className="ars-wrap p-wrap">
                     <ContainerWrap>
-                        <h2 className="sub-title">오염지향성주행 기술 </h2>
+                        <h2 className="sub-title">Contamination-Oriented<br/>Driving Technology</h2>
                         <ul className="ars-box-wrap">
                             <li>
                                 <img src="/img/technology/ars1.png" />
                                 <p>
-                                센서와 연동하여 오염도가 <br/>
-                                높은 지역을 우선 청정하여 효율적 
+                                Prioritizes cleaning highly contaminated areas efficiently through sensor integration.
                                 </p>
                             </li>
                             <li>
                                 <img src="/img/technology/ars2.png" />
                                 <p>
-                                로봇 주행 시험<br/>
-                                (공간 인식률, 주행 점유율, 장애물 회피율)
+                                Robot driving tests<br/> (space recognition rate, driving occupancy rate, obstacle avoidance rate)
                                 </p>
                             </li>
                         </ul>
@@ -200,13 +178,12 @@ export default function Technology() {
                 <div className="ars-wrap2 p-wrap">
 
                     <ContainerWrap>
-                        <h2 className="sub-title">자동스테이션 기술 </h2>   
+                        <h2 className="sub-title">Automated Station Technology </h2>   
                         <div className="ars-img-box p-wrap">
                             <div className="ars-text">
-                                <h3>01  자동스테이션 기술</h3>
+                                <h3>01  Automated Station Technology</h3>
                                 <h1>
-                                필터 및 배터리 <br/>
-                                자동 교체 스테이션 
+                                Automatic filter and<br/> battery replacement station.
                                 </h1>
                             </div>
                             <div className="ars-img">
@@ -222,9 +199,9 @@ export default function Technology() {
                                     <img src="/img/technology/tech2.png"/>
                                 </div>
                                 <div className="ars-text">
-                                    <h3>02  자동스테이션 기술</h3>
+                                    <h3>02  Automated Station Technology</h3>
                                     <h1>
-                                    로봇암 기술
+                                    Robotic Arm Technology.
                                     </h1>
                                 </div>
                             </div>
@@ -234,10 +211,9 @@ export default function Technology() {
                      <ContainerWrap>
                         <div className="ars-img-box p-wrap">
                             <div className="ars-text">
-                                <h3>03  자동스테이션 기술</h3>
+                                <h3>03  Automated Station Technology</h3>
                                 <h1>
-                                가이드를 통한 <br/>
-                                정렬 기술
+                                Alignment technology using a guide.
                                 </h1>
                             </div>
                             <div className="ars-img">
@@ -253,10 +229,9 @@ export default function Technology() {
                                     <img src="/img/technology/tech4.png"/>
                                 </div>
                                 <div className="ars-text">
-                                    <h3>04  자동스테이션 기술</h3>
+                                    <h3>04  Automated Station Technology</h3>
                                     <h1>
-                                    필터 및 배터리 <br/>
-                                    자동 교체 스테이션 
+                                    Filter automatic replacement technology
                                     </h1>
                                 </div>
                             </div>
@@ -270,25 +245,25 @@ export default function Technology() {
                     <ul className="technology-title">
                         <li>
                             <h5>03</h5>
-                            <h2>광원 기술 <strong className="montserrat">ASS</strong></h2>
+                            <h2>Light Source Technology <strong className="montserrat"> ASS</strong></h2>
                             <img src="/img/technology/Arrow.svg" />
                         </li>
                         <li>
                             <p>
-                            인체에 무해한 특수한 원자외선 파장대의 살균 광원 수납식(개폐식)<br/> 
-                            자외선 광원으로 안전성 확보 
+                            Sterilization light source with a special far-ultraviolet wavelength that is harmless to humans.
+                            Retractable (open/close) ultraviolet light source ensures safety.
                             </p>
                         </li>
                     </ul>
                     <div className="a-link-list">
                         <div className="a-link">
-                            <Link href="#tech1">광원 수납(개폐) 기술</Link>
+                            <Link href="#tech1">Light Source Storage (Retractable) Technology</Link>
                         </div>
                         <div className="a-link">
-                            <Link href="#tech2">원자외선 vs 자외선</Link>
+                            <Link href="#tech2">Far-Ultraviolet vs Ultraviolet</Link>
                         </div>
                         <div className="a-link">
-                            <Link href="#tech3">학계 논문</Link>
+                            <Link href="#tech3">Academic Papers</Link>
                         </div>
                     </div>
                     <div className="tech-box-wrap" id="tech1">
@@ -297,7 +272,7 @@ export default function Technology() {
                                 <img src="/img/technology/tech-box1.png"/>
                             </div>
                             <div className="tech-box-title">
-                                <h2>광원 수납(개폐)  기술</h2>
+                                <h2>Light Source Storage (Retractable) Technology</h2>
                             </div>
                         </div>
                         <div className="tech-box">
@@ -305,7 +280,7 @@ export default function Technology() {
                                 <img src="/img/technology/tech-box2.png"/>
                             </div>
                             <div className="tech-box-title">
-                                <h2>광원 조사각 조절 기술</h2>
+                                <h2>Light Source Irradiation Angle Adjustment Technology</h2>
                             </div>
                         </div>
                         <div className="tech-box">
@@ -313,7 +288,7 @@ export default function Technology() {
                                 <img src="/img/technology/tech-box3.png"/>
                             </div>
                             <div className="tech-box-title">
-                                <h2>파장대 및 살균력 시험</h2>
+                                <h2>Wavelength Range and Sterilization Power Testing</h2>
                             </div>
                         </div>
                         <div className="tech-box">
@@ -321,7 +296,7 @@ export default function Technology() {
                                 <img src="/img/technology/tech-box4.png"/>
                             </div>
                             <div className="tech-box-title">
-                                <h2>4종 균주 살균 시험 </h2>
+                                <h2>4-Strain Microbial Sterilization Testing </h2>
                             </div>
                         </div>
                     </div>
@@ -329,8 +304,8 @@ export default function Technology() {
                 <div className="rays-wrap" id="tech2">
                     <div className="rays-banner">
                         <ContainerWrap>
-                            <h2>원자외선 VS 자외선</h2>
-                            <p>인체에 무해한 원자외선(Far UV-C) 광원을 사용하여 안전합니다.</p>
+                            <h2>Far-Ultraviolet vs Ultraviolet</h2>
+                            <p>Uses Far-Ultraviolet (Far UV-C) light source, <br/>which is safe and harmless to the human body.</p>
                             <div className="rays-img-box-wrap">
                                 <div className="rays-img-box">
                                     <img src="/img/technology/rays1.png"/>
@@ -341,8 +316,7 @@ export default function Technology() {
                             </div>
                             <div className="rays-graph-wrap">
                                 <h3>
-                                기존 자외선(UV-C)와 <br/>
-                                원자외선(Far UV-C)의 비교
+                                Comparison between Ultraviolet<br/>  (UV-C)and Far-Ultraviolet<br/>  (Far UV-C)
                                 </h3>
                                 <div className="rays-graph">
                                     <img src="/img/technology/graph.png"/>
@@ -353,12 +327,12 @@ export default function Technology() {
                 </div>
                 <div className="thesis-wrap" id="tech3">
                         <h2 className="sub-title">
-                            학계 논문
+                        Academic Papers
                         </h2>
                     <ContainerWrap>
                         <div className="thesis-title-wrap">
                             <div className="thesis-title">
-                                <h4>미국 콜롬비아 대학의 원자외선 안정성 검증 논문</h4>
+                                <h4>Paper on Far Ultraviolet Stability Verification by Columbia University, USA.</h4>
                             </div>
                             <div className="thesis-img-wrap">
                                 <div className="thesis-img">
@@ -371,7 +345,7 @@ export default function Technology() {
                         </div>
                         <div className="thesis-title-wrap">
                             <div className="thesis-title">
-                                <h4>일본 고베 대학의 동물 실험 안정성 검증 논문</h4>
+                                <h4>Paper on Far-Ultraviolet Stability Verification through Animal Testing by Kobe University, Japan</h4>
                             </div>
                             <div className="thesis-img-wrap">
                                 <div className="thesis-img">
@@ -427,14 +401,14 @@ const TechnologyWrap = styled(Box)`
         li{
             padding: 5rem;
             border-radius: 24px;
-            height: 35rem;
+            height: 38rem;
             width: 32%;
             background-color:  ${()=> theme.colors.backgroundColor};
             h5{
                 font-size: 1.6rem;
                 font-weight: bold;
                 color: ${()=> theme.colors.primary};
-                margin-bottom: 5rem;
+                margin-bottom: 3rem;
             }
             h3{
                 font-size: 2rem;
@@ -444,7 +418,7 @@ const TechnologyWrap = styled(Box)`
                 margin-bottom: 1rem;
             }
             p{
-                font-size: 1.6rem;
+                font-size: 1.4rem;
                 font-weight: 400;
                 color: ${()=> theme.colors.textColor2};
                 line-height: 150%;
@@ -604,11 +578,11 @@ const TechnologySection1 = styled(Box)`
                 margin-bottom: .5rem;
             }
             h2{
-                font-size: 4rem;
+                font-size: 3.5rem;
                 color: ${()=> theme.colors.textColor};
                 font-weight: 600;
                 strong{
-                    font-size: 4rem;
+                    font-size: 3.5rem;
                     color: ${()=> theme.colors.primary2};
                 }
             }
@@ -676,7 +650,7 @@ const TechnologySection1 = styled(Box)`
             justify-content: space-between;
             margin-top: 8rem;
             .cost-box{
-                padding: 5rem;
+                padding: 4rem;
                 border-radius: 24px;
                 height: 420px;
                 background-color: #fff;
@@ -686,13 +660,13 @@ const TechnologySection1 = styled(Box)`
                 background-repeat: no-repeat;
                 box-shadow: 0 0 20px rgba(211,206,255,.3);
                 h5{
-                    font-size: 2.4rem;
+                    font-size: 2rem;
                     font-weight: 500;
                     color: ${()=> theme.colors.textColor2};
                     line-height: 150%;
                 }
                 h3{
-                    font-size: 4rem;
+                    font-size: 3rem;
                     font-weight: bold;
                     line-height: 150%;
                     color: ${()=> theme.colors.primary};
@@ -782,7 +756,7 @@ const TechnologySection1 = styled(Box)`
             .cost-box-wrap{
                 flex-direction: column;
                 .cost-box{
-                    width: 80%;
+                    width: 100%;
                     background-position : right;
                     height:20rem;
                     margin-bottom: 2rem;
@@ -820,11 +794,11 @@ const TechnologySection2 = styled(Box)`
                 margin-bottom: .5rem;
             }
             h2{
-                font-size: 4rem;
+                font-size: 3.5rem;
                 color: #fff;
                 font-weight: 600;
                 strong{
-                    font-size: 4rem;
+                    font-size: 3.5rem;
                     color: #fff;
                 }
             }
@@ -899,9 +873,9 @@ const TechnologySection2 = styled(Box)`
         .technology-title{
             li{
                 h2{
-                    font-size: 3.5rem;
+                    font-size: 3rem;
                     strong{
-                        font-size: 3.5rem;
+                        font-size: 3rem;
                     }
                 }
                 p{
@@ -989,11 +963,11 @@ const TechnologySection3 = styled(Box)`
                 margin-bottom: .5rem;
             }
             h2{
-                font-size: 4rem;
+                font-size: 3.5rem;
                 color: ${()=> theme.colors.textColor};
                 font-weight: 600;
                 strong{
-                    font-size: 4rem;
+                    font-size: 3.5rem;
                     color: ${()=> theme.colors.primary2};
                 }
             }
@@ -1011,7 +985,7 @@ const TechnologySection3 = styled(Box)`
     .a-link-list{
         display: flex;
         align-items: center;
-        margin-bottom: 8rem;
+        margin-bottom: 5rem;
         .a-link{
             width: 33.3%;
             display: flex;
@@ -1020,9 +994,9 @@ const TechnologySection3 = styled(Box)`
             background-color: ${()=> theme.colors.backgroundColor2};
             transition: all .3s ease-in-out;
             a{
-                padding: 1.5rem 0;
+                padding: 2rem 1rem;
                 display: inline-block;
-                font-size: 1.8rem;
+                font-size: 1.4rem;
                 color: #22282F;
                 width: 100%;
                 text-align: center;
@@ -1136,7 +1110,7 @@ const TechnologySection3 = styled(Box)`
                 align-items:flex-start;
                 justify-content: space-between;
                 h3{
-                    font-size: 2.8rem;
+                    font-size: 2.4rem;
                     color: ${()=> theme.colors.textColor};
                     font-weight: bold;
                     line-height: 150%;
@@ -1195,9 +1169,9 @@ const TechnologySection3 = styled(Box)`
         .technology-title{
             li{
                 h2{
-                    font-size: 3.5rem;
+                    font-size: 3rem;
                     strong{
-                        font-size: 3.5rem;
+                        font-size: 3rem;
                     }
                 }
                 p{
@@ -1213,7 +1187,7 @@ const TechnologySection3 = styled(Box)`
         .a-link-list{
             margin-bottom: 3rem;
             .a-link{
-                height: 64px;
+                height: 80px;
                 a{
                     font-size: 1.4rem;
                 }

@@ -9,6 +9,9 @@ import ContainerWrap from "./components/layout/ContainerWrap";
 import FilledRoundBtn from "./components/button/FilledRoundBtn";
 import AddIcon from '@mui/icons-material/Add';
 import Footer from "./components/footer/Footer";
+import { useEffect, useRef, useState } from "react";
+import { createGlobalStyle } from "styled-components";
+
 export default function Home() {
 
   const theme = createTheme({
@@ -28,52 +31,55 @@ export default function Home() {
         <MainWrap>
             <div className="main-background">
               <ContainerWrap>
-                  <h3>실내 다중이용시설용 청정로봇 </h3>
+                  <h3>Quarantine Robot CLIBO for Indoor Multi-use Facilities</h3>
                   <h1 className="montserrat">CLIBO</h1>
                   <p>
-                    사람이 있는 곳에서 인체에 무해하게<br/>
-                    공기 정화 및 접촉바이러스까지 살균합니다.
+                  In the presence of people, harmless to the human body<br/>
+                  It sterilizes air purification and even contact viruses.
                   </p>
-                  <FilledRoundBtn text={"제품 보러가기"}/>
+                  <FilledRoundBtn text={"Go to see the product"} link={"/clibo"} />
               </ContainerWrap>
               <div className="scroll-down-wrap">
               </div>
             </div>
-            <ContainerWrap>
+            <ContainerWrap> 
               <div className="video-wrap">
-                <iframe width="100%" height="650" src="https://www.youtube.com/embed/23I7JE2Ps3Q?si=snRrSRIcv6AYobTW" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                <div className="video-box">
+                  <iframe 
+                    width="100%" 
+                    height="100%"
+                    src="https://www.youtube.com/embed/b1cXp8wySU8?autoplay=1&mute=1&controls=0" 
+                    title="YouTube video player" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin" 
+                    allowFullScreen
+                    />
+                </div>
               </div>
-            </ContainerWrap> 
+            </ContainerWrap>
             <ServiceBoxList>
               <ContainerWrap>
                 <h1 className="title">
-                  바이러스와 미세먼지 걱정없는 세상<br/>
-                  <strong className="montserrat">Advance-Solution</strong>이 만들겠습니다.
+                A world free from viruses and fine dust<br/> <strong className="montserrat">Advance Solution</strong> will create it.
                 </h1>
                 <ul className="service-list">
                   <li id="service1" className="service-box">
-                      <h5>Surface contact virus sterilization</h5>
-                      <h2>표면 접촉바이러스 살균</h2>
+                      <h2>Surface contact virus sterilization</h2>
                   </li>
                   <li id="service2" className="service-box">
-                      <h5>Air purification disinfection</h5>
-                      <h2>공기 부유 바이러스 살균</h2>
+                      <h2>Air purification disinfection</h2>
                   </li>
                   <li id="service3" className="service-box">
-                      <h5>Fine dust air purification</h5>
-                      <h2>미세먼지 공기정화</h2>
+                      <h2>Fine dust air purification</h2>
                   </li>
                   <li id="service4" className="service-box">
-                      <h5>Pollution-oriented driving</h5>
-                      <h2>오염지향성 주행</h2>
+                      <h2>Pollution-oriented driving</h2>
                   </li>
                   <li id="service5" className="service-box">
-                      <h5>Automatic replacement station</h5>
-                      <h2>자동 교체스테이션</h2>
+                      <h2>Automatic replacement station</h2>
                   </li>
                   <li id="service6" className="service-box">
-                      <h5>Modular and one-touch enclosures</h5>
-                      <h2>모듈화 및 원터치 외함</h2>
+                      <h2>Modular and one-touch enclosures</h2>
                   </li>
                 </ul>
               </ContainerWrap>
@@ -84,9 +90,9 @@ export default function Home() {
                   <strong className="montserrat">CLIBO</strong> by Advance-Solution
                 </h1>
                 <p>
-                  대면적의 다중이용시설인 공공기관(국공립병원, 공항, 관공서), <br/>
-                  교육시설(학교, 강당)에 적용
-                  렌탈서비스를 통한 병원, 요양원, 산후조리원 등에 적용  
+                Public institutions (national public hospitals, airports, government offices), <br/>
+                which are large-area multi-use facilities, Application to educational facilities (school, auditorium)<br/>
+Application to hospitals, nursing homes, postpartum care centers, etc. through rental service
                 </p>
                 <ul className="solution-list">
                   <li>
@@ -98,11 +104,11 @@ export default function Home() {
                   </li>
                   <li>
                       <img src="/img/main/icon/icon1.svg"/>
-                      <h2>렌탈서비스</h2>
+                      <h2>Rental service</h2>
                       <p>
-                        병원<br/>
-                        요양원<br/>
-                        산후조리원
+                      Hospitals<br/>
+                      nursing homes<br/>
+                      postpartum care centers
                       </p>
                       <div className="add-icon">
                         <img src="/img/main/icon/add.svg" />
@@ -110,10 +116,10 @@ export default function Home() {
                   </li>
                   <li>
                       <img src="/img/main/icon/icon2.svg"/>
-                      <h2>공공기관</h2>
+                      <h2>Public institutions</h2>
                       <p>
-                        조달청<br/>
-                        혁신제품
+                      Public Procurement Service<br/>
+                      Innovative Products
                       </p>
                       <div className="add-icon">
                         <img src="/img/main/icon/add.svg"/>
@@ -121,11 +127,12 @@ export default function Home() {
                   </li>
                   <li>
                       <img src="/img/main/icon/icon3.svg"/>
-                      <h2>일반판매</h2>
+                      <h2>General sale</h2>
                       <p>
-                      물류센터<br/>
-                      식품 공장육<br/>
-                      가공공장축사
+                      Logistics Centers<br/>
+                      Food Factories<br/>
+                      Meat Processing Plants<br/>
+                      Barns
                       </p>
                   </li>
                 </ul>
@@ -138,10 +145,10 @@ export default function Home() {
 }
 
 const MainWrap = styled(Box )`
-  .montserrat{
+  /* .montserrat{
     font-family: "Montserrat", serif;
     font-weight: bold;
-  }
+  } */
   .title{
     font-size: 4rem;
     font-weight: bold;
@@ -150,7 +157,7 @@ const MainWrap = styled(Box )`
     text-align: center;
     line-break: anywhere;
     strong{
-      color: ${()=> theme.colors.primary};
+      color: ${()=> theme.colors.primary2};
       font-size: 4rem;
     }
   }
@@ -171,7 +178,7 @@ const MainWrap = styled(Box )`
       color:  ${()=> theme.colors.textColor};
     }
     h3{
-      font-size: 3.5rem;
+      font-size: 2.2rem;
       color:  ${()=> theme.colors.textColor};
       font-weight: 500;
       line-height: 150%;
@@ -210,7 +217,28 @@ const MainWrap = styled(Box )`
     
   }
   .video-wrap{
-    padding: 8rem 0 13rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 13rem 0;
+    height: 100%;
+    width: 100%;
+    .video-box{
+      width: 100%;
+    height: 0;
+    padding-top: 56.25%; /* 가장 중요 */
+    position: relative;
+    }
+    iframe{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-radius: 20px;
+      top: 0;
+      left: 0;
+      border: none;
+    }
   }
 
   @media ${() => theme.device.tablet} {
@@ -230,17 +258,23 @@ const MainWrap = styled(Box )`
         text-align: center;
       }
       h3{
-        font-size: 2.5rem;
+        font-size: 1.6rem;
         text-align: center;
       }
       p{
         font-size: 1.6rem;
         text-align: center;
         margin: 2rem 0 4rem 0;
+        br{
+          display: none;
+        }
       }
     }
     .title{
       font-size: 3rem;
+      br{
+        display: none;
+      }
       strong{
          font-size: 3rem;
        }
@@ -274,10 +308,17 @@ const MainWrap = styled(Box )`
 `;
 
 const ServiceBoxList = styled(Box)`
-  background-color:${()=> theme.colors.backgroundColor};
+  background-image: url(../img/main/sub_background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 13rem 0 11rem 0;
   h1{
     margin-bottom: 8rem;
+    color: #fff !important;
+    strong{
+      color: #fff !important;
+    }
   }
   .service-list{
     display: flex;
@@ -453,7 +494,7 @@ const SolutionWrap = styled(Box)`
         margin: 1rem 0 1.5rem 0;
       }
       p{
-        font-size: 2rem;
+        font-size: 1.6rem;
         text-align: left;
         line-height: 150%;
         margin-top: 0;
@@ -512,4 +553,22 @@ const SolutionWrap = styled(Box)`
       }
     }
   }
+`;
+
+const videoWrapStyles = `
+  .video-wrap {
+    transition: position 0.3s ease;
+  }
+  .video-wrap.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+  }
+`;
+
+const GlobalStyle = createGlobalStyle`
+  ${videoWrapStyles}
 `;

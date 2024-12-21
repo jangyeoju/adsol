@@ -11,6 +11,13 @@ const Map1 = ()=>{
         });     
         
         setMap(newMap);
+
+        var geocoder = new window.google.maps.Geocoder();
+        geocoder.geocode({ 'address': 'Your Address Here', 'language': 'en' }, function(results, status) {
+            if (status === 'OK') {
+                newMap.setCenter(results[0].geometry.location);
+            }
+        });
     },[])
 
     return (

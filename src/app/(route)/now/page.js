@@ -44,70 +44,70 @@ export default function Now() {
                     <div className="now-banner">
                         <ContainerWrap>
                             <h1 className="montserrat">Now</h1>
-                            <p>현재 개요 및 이력</p>
+                            <p>Current Overview and History</p>
                             <div className="now-content">
                             <div className="now-content-left table">
                                 <ul className="table-wrap">
                                     <li>
                                         <div className="table-header h-1">  
-                                            <h3>기업명</h3>
+                                            <h3>Company Name</h3>
                                         </div>
                                         <div className="table-body h-1">  
-                                            <h4>주식회사 어드밴스솔루션</h4>
+                                            <h4>Advance Solution</h4>
                                         </div>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <div className="table-header h-1">  
                                             <h3>대표이사</h3>
                                         </div>
                                         <div className="table-body h-1">  
                                             <h4>채두현</h4>
                                         </div>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <div className="table-header h-1">  
-                                            <h3>설립일</h3>
+                                            <h3>Established</h3>
                                         </div>
                                         <div className="table-body h-1">  
-                                            <h4>2021년 06월 25일</h4>
+                                            <h4>June 25, 2021</h4>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="table-header h-1">  
-                                            <h3>자본금</h3>
+                                            <h3>Capital</h3>
                                         </div>
                                         <div className="table-body h-1">  
-                                            <h4>1억 (2024년 6월 기준)</h4>
+                                            <h4>100,000,000 KRW (as of June 2024)</h4>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="table-header h-1">  
-                                            <h3>임직원수</h3>
+                                            <h3>Number of Employees</h3>
                                         </div>
                                         <div className="table-body h-1">  
-                                            <h4>8명 (2024년 6월 기준)</h4>
+                                            <h4>8 (as of June 2024)</h4>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="table-header h-1">  
-                                            <h3>주 사업분야</h3>
+                                            <h3>Main Business Area</h3>
                                         </div>
                                         <div className="table-body h-1">  
                                             <h4>Robot</h4>
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="table-header h-3">  
-                                            <h3>소재지</h3>
+                                        <div className="table-header h-4">  
+                                            <h3>Location</h3>
                                         </div>
-                                        <div className="table-body h-3">  
+                                        <div className="table-body h-4">  
                                             <h4>
-                                                <strong>(본사)</strong> <br/>
-                                                - 안산시 상록구 한양대학로 55, 창업보육센터 527호<br/>
-                                                <strong>(지사)</strong> <br/>
-                                                - 군포시 엘에스로 13, 신일IT유토지식산업센터 1303호<br/>
-                                                <strong>(기업부설연구소)</strong> <br/>
-                                                - 성남시 수정구 대왕판교로 815, 기업지원허브 780호<br/>
+                                                <strong>(Headquarters)</strong> <br/>
+                                                - 55 Hanyang University Road, Sangnok-gu, Ansan,<br/> Startup Incubation Center, Room 527<br/>
+                                                <strong>(Branch Office)</strong> <br/>
+                                                - 13 L.E.S. Road, Gunpo, <br/>Shinil IT Uto Knowledge Industry Center, Room 1303<br/>
+                                                <strong>(Corporate Research Institute)</strong> <br/>
+                                                - 815 Daewang Pangyo Road, Sujeong-gu, <br/>Seongnam, Business Support Hub, Room 780<br/>
                                             </h4>
                                         </div>
                                     </li>
@@ -118,7 +118,7 @@ export default function Now() {
                                     <h2 className="montserrat">Company History</h2>
                                    <KeyboardArrowDownIcon/>
                                 </div>
-                                <p>회사 연혁</p>
+                                <p>Company History</p>
                             </div>
                         </div>
                         </ContainerWrap>
@@ -128,7 +128,7 @@ export default function Now() {
                     <div className="conpany-history-wrap">
                         <ContainerWrap>
                             <h2 className="montserrat title">Company History</h2>
-                            <p className="sub-title-text">설립 후 현재까지 빠르게 성장 중이며 새로운 도전을 항상 결과로 증명합니다.</p>
+                            <p className="sub-title-text">Since its establishment, the company has been growing rapidly <br/>and always proves its new challenges with results.</p>
                         </ContainerWrap>
                         <div className="conpany-history-content">
                             <img src="/img/now/history.png" alt="company history"/>
@@ -139,20 +139,20 @@ export default function Now() {
                     <div className="investment-wrap">
                         <ContainerWrap>
                             <h2 className="montserrat title">Invest History</h2>
-                            <p className="sub-title-text">다양한 사업화 과제 및 정부 R&D 과제 선정, 우수한 기술로 과제 수행능력 증명</p>
+                            <p className="sub-title-text">Proven project execution capability with excellent technology through various<br/> commercialization projects and selection for government R&D projects.</p>
                             <div className="line-img">
                                 <img src="/img/now/Line.png" alt="line"/>
                             </div>
                             <div className="investment-content">
                                 <div className="investment-content-wrap">
                                     <div className="investment-box" id="investment-box1">
-                                        <h3>투자유치 0.3억</h3>
+                                        <h3>Investment Attraction: 30 million KRW</h3>
                                         <p>2023.03</p>
                                     </div>
                                 </div>
                                 <div className="investment-content-wrap">
                                     <div className="investment-box" id="investment-box2">
-                                        <h3>청년창업학교<span>센서 및 모니터링 시스템</span></h3>
+                                        <h3>Youth Entrepreneurship School<span>Sensor and Monitoring System</span></h3>
                                         <div className="p-wrap">
                                             <p>2022.03</p>
                                             <p>2022.11</p>
@@ -162,9 +162,9 @@ export default function Now() {
                                 <div className="investment-content-wrap">
                                     <div className="investment-box" id="investment-box3">
                                         <div className="dp-wrap">
-                                            <h3>초격차 스타트업<span>살균 + 공기정화 청정로봇</span>
+                                            <h3>Ultra-competitive Startup<span>Sterilization + Air Purification Clean Robot</span>
                                             <img src="/img/now/line2.png" alt="line2"/>
-                                            <span>배터리 스테이션</span>
+                                            <span>Battery Station</span>
                                             </h3>
                                         </div>
                                         <div className="p-wrap">
@@ -175,7 +175,7 @@ export default function Now() {
                                 </div>
                                 <div className="investment-content-wrap">
                                     <div className="investment-box" id="investment-box4">
-                                        <h3>디딤돌 R&D<span>인체무해 살균 로봇</span></h3>
+                                        <h3>Stepping Stone R&D<span>Human-Safe Sterilization Robot</span></h3>
                                         <div className="p-wrap">
                                             <p>2023.07</p>
                                             <p>2023.07</p>
@@ -184,7 +184,7 @@ export default function Now() {
                                 </div>
                                 <div className="investment-content-wrap">
                                     <div className="investment-box" id="investment-box5">
-                                        <h3>전략형 R&D<span>재활용품 분류장치</span></h3>
+                                        <h3>Strategic R&D<span>Recycling Classification Device</span></h3>
                                         <div className="p-wrap">
                                             <p>2023.09</p>
                                             <p>2025.06</p>
@@ -198,18 +198,18 @@ export default function Now() {
                 <PremierWrap>
                     <div className="priemier-wrap">
                         <ContainerWrap>
-                            <h2 className="title">수상 및 인증</h2>
-                            <p className="sub-title-text">어드밴스솔루션 수상 및 인증을 통해서 증명된 신뢰 있는 기업입니다.</p>
+                            <h2 className="title">Awards and Certifications</h2>
+                            <p className="sub-title-text">Advance Solutions is a trusted company proven through awards and certifications.</p>
                             <ul className="priemier-content">
                                 <li>
                                     <img src="/img/now/premier/premier1.png" alt="priemier1"/>
-                                    <h4>초격차 스타트업 1000 프로젝트 선정</h4>
-                                    <p>청최곡의 기술력을 증명하는 초격차 스타트업</p>
+                                    <h4>Selected for the Ultra-Competitive Startup 1000 Project</h4>
+                                    <p>An ultra-competitive startup that proves its top-tier technology</p>
                                 </li>
                                 <li>
                                     <img src="/img/now/premier/premier2.png" alt="priemier1"/>
-                                    <h4>K-DESIGN AWARD 24 선정</h4>
-                                    <p>뛰어난 디자인까지 겸비한 디자인 어워드 수상</p>
+                                    <h4>Selected for the K-DESIGN AWARD24</h4>
+                                    <p>winning a design award with outstanding design</p>
                                 </li>
                             </ul>
                             <div className="swiper-wrap">
@@ -314,19 +314,19 @@ export default function Now() {
                                 <ul className="logo-wrap">
                                     <li>
                                         <img src="/img/now/logo/logo1.png" alt="logo1"/>
-                                        <h5>어드밴스솔루션 CI</h5>
+                                        <h5>Advance Solutions CI </h5>
                                     </li>
                                     <li>
                                         <img src="/img/now/logo/logo2.png" alt="logo2"/>
-                                        <h5>제로 모니터링 시스템</h5>
+                                        <h5>Zero Monitoring System</h5>
                                     </li>
                                     <li>
                                         <img src="/img/now/logo/logo3.png" alt="logo3"/>
-                                        <h5>청정로봇 크리보</h5>
+                                        <h5>Clean Robot CLIBO </h5>
                                     </li>
                                     <li>
                                         <img src="/img/now/logo/logo4.png" alt="logo4"/>
-                                        <h5>방역로봇 라이트가드</h5>
+                                        <h5>Sterilization Robot LightGuard</h5>
                                     </li>
                                 </ul>
                             </ContainerWrap>
@@ -419,7 +419,7 @@ const NowWrap = styled(Box)`
                     .table-header{
                         width: 20%; 
                         background-color: #F5F5F5;
-                        padding: 2rem 0;
+                        padding: 2rem 1rem;
                         border-right: 1px solid #E0E0E0;
                         border-bottom: 1px solid #E0E0E0;
                         display: flex;
@@ -472,8 +472,8 @@ const NowWrap = styled(Box)`
             .table{
                 .table-wrap{
                     li{
-                        .h-3{
-                            height: 16rem !important;
+                        .h-4{
+                            height: 22rem !important;
                         }
                         .table-header{
                             width: 25%;
@@ -562,7 +562,7 @@ const CompanyHistoryWrap = styled(Box)`
     }
     @media ${() => theme.device.mobile3} {
         .conpany-history-content{
-            height: 180px;
+            height: 160px;
         }
     }
     @media ${() => theme.device.mobile4} {
@@ -690,7 +690,6 @@ const InvestmentWrap = styled(Box)`
         .investment-wrap{
             padding: 8rem 0 6rem 0;
             .investment-content{
-
                 .investment-content-wrap{
                     .investment-box{
                         img{
@@ -698,6 +697,7 @@ const InvestmentWrap = styled(Box)`
                         }
                         h3{
                             font-size: 1.4rem;
+                            padding: 1rem;
                         }
                     }
                 }

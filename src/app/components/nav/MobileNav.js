@@ -60,66 +60,66 @@ export default function SwipeableTemporaryDrawer() {
     aria-labelledby="nested-list-subheader"
     >
     <ListItemButton onClick={handleClick}>
-        <ListItemText primary="어드밴스솔루션" />
+        <ListItemText primary="Advance Solution" />
         {listOpen ? <ExpandLess /> : <ExpandMore />}
     </ListItemButton>
      <Collapse in={listOpen} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
             <Link href="/vision">
                 <StyledListItemButton sx={{ pl: 2 }}>
-                    <ListItemText primary="비전" />
+                    <ListItemText primary="Vision" />
                 </StyledListItemButton>
             </Link>
             <Link href="/now">
               <StyledListItemButton sx={{ pl: 2 }}>
-                <ListItemText primary="현재" />
+                <ListItemText primary="Now" />
             </StyledListItemButton>
             </Link>
             <Link href="/contact">
               <StyledListItemButton sx={{ pl: 2 }}>
-                <ListItemText primary="문의하기 & 찾아오는 곳" />
+                <ListItemText primary="Contact Us" />
             </StyledListItemButton>
             </Link>
         </List>
     </Collapse>
 
     <ListItemButton onClick={handleClick2}>
-        <ListItemText primary="기술 및 제품" />
+        <ListItemText primary="Technology and Products" />
         {listOpen2 ? <ExpandLess /> : <ExpandMore />}
     </ListItemButton>
      <Collapse in={listOpen2} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
             <Link href="/technology">
                 <StyledListItemButton sx={{ pl: 2 }}>
-                    <ListItemText primary="외함 기술 (AHS)" />
+                    <ListItemText primary="Enclosure Technology (AHS)" />
                 </StyledListItemButton>
             </Link>
             <Link href="/technology#sec2">
                 <StyledListItemButton sx={{ pl: 2 }}>
-                    <ListItemText primary="로봇 기술 (ARS)" />
+                    <ListItemText primary="Robot technology (ARS)" />
                 </StyledListItemButton>
             </Link>
             <Link href="/technology#sec3">
                 <StyledListItemButton sx={{ pl: 2 }}>
-                    <ListItemText primary="광원 기술 (ASS)" />
+                    <ListItemText primary="Light Source Technology (ASS)" />
                 </StyledListItemButton>
             </Link>
             <Link href="/clibo">
                 <StyledListItemButton sx={{ pl: 2 }}>
-                    <ListItemText primary="청정로봇 (CLIBO)" />
+                    <ListItemText primary="CLIBO" />
                 </StyledListItemButton>
             </Link>
         </List>
     </Collapse>
     <ListItemButton onClick={handleClick3}>
-        <ListItemText primary="소식 및 자료" />
+        <ListItemText primary="News and data" />
         {listOpen3 ? <ExpandLess /> : <ExpandMore />}
     </ListItemButton>
      <Collapse in={listOpen3} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
             <Link href="/news">
                 <StyledListItemButton sx={{ pl: 2 }}>
-                    <ListItemText primary="뉴스&자료" />
+                    <ListItemText primary="News & data" />
                 </StyledListItemButton>
             </Link>
         </List>
