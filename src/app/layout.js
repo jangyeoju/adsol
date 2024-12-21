@@ -22,7 +22,7 @@ export default function RootLayout({children}) {
     <>
     <html lang="en" className={`${pretendard.className} ${montserrat.className}`}>
       <body>
-        <script  type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkNBxTatAowreaA0jgD4IqFy741UJnCL0&loading=async&region=EN&language=en&callback=initMap"></script>
+        <script  type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkNBxTatAowreaA0jgD4IqFy741UJnCL0&loading=async&region=EN&language=en&callback=initMap" defer></script>
         {children}
       </body>
     </html>
