@@ -534,7 +534,7 @@ const SolutionWrap = styled(Box)`
 
   @media ${() => theme.device.mobile2} {
     p{
-      br{
+      br:not(.solution-list li p br){
         display: none;
       }
     }

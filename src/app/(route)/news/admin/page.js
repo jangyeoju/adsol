@@ -271,7 +271,7 @@ const StyledCustomTabPanel = styled(CustomTabPanel)`
     &>div{
         padding: 0;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 1rem;
