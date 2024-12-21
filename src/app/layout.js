@@ -1,7 +1,7 @@
 "use client"
 import "./globals.css";
 import localFont from 'next/font/local'
-
+import Script from 'next/script'
 const pretendard = localFont({
   src: '../app/style/fonts/PretendardVariable.woff2',
   display: 'swap',
@@ -16,13 +16,16 @@ const montserrat = localFont({
   variable: '--font-montserrat',
 })
 
-
 export default function RootLayout({children}) {
+
   return (
     <>
     <html lang="en" className={`${pretendard.className} ${montserrat.className}`}>
       <body>
-        <script  type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkNBxTatAowreaA0jgD4IqFy741UJnCL0&loading=async&region=EN&language=en&callback=initMap" defer></script>
+      <Script>
+        
+      </Script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkNBxTatAowreaA0jgD4IqFy741UJnCL0&loading=async&region=EN&language=en" async defer></script>
         {children}
       </body>
     </html>
