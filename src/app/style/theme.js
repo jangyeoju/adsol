@@ -27,16 +27,15 @@ const deviceSizes = {
 };
 
 const colors = {
-  primary: "#2B2B50",
-  primary2: "#5D62FF",
-  secondary: "#1A1A40",
-  textColor: "#22282F",
-  textColor2: "#666F7A",
-  backgroundColor: "#F9F9FF",
-  backgroundColor2: "#F8F8F8",
-  greenColor: "#01BCB6",
-  redColor : "#E20707",
-  
+  primary: '#2B2B50',
+  primary2: '#5D62FF',
+  secondary: '#1A1A40',
+  textColor: '#22282F',
+  textColor2: '#666F7A',
+  backgroundColor: '#F9F9FF',
+  backgroundColor2: '#F8F8F8',
+  greenColor: '#01BCB6',
+  redColor: '#E20707',
 };
 
 const device = {
@@ -49,7 +48,6 @@ const device = {
   desktop2: `(max-width : ${deviceSizes.desktop2}px)`,
   desktop: `(max-width : ${deviceSizes.desktop}px)`,
 };
-
 
 const theme = {
   fontSizes,
