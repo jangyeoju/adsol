@@ -1,9 +1,20 @@
 'use client';
+
 import * as React from 'react';
-import { Box, Button, Container, IconButton } from '@mui/material';
-import { createTheme, Divider, Icon, ThemeProvider } from '@mui/material';
 import styled from '@emotion/styled';
+import {
+  Box,
+  Button,
+  Container,
+  createTheme,
+  Divider,
+  Icon,
+  IconButton,
+  ThemeProvider,
+} from '@mui/material';
+
 import theme from '@/app/style/theme';
+
 import ContainerWrap from '../layout/ContainerWrap';
 
 export default function SubBanner({ title, children }) {

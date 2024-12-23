@@ -1,21 +1,30 @@
 'use client';
+
 import * as React from 'react';
-import { Box, Button, Container, IconButton } from '@mui/material';
-import { createTheme, Divider, Icon, ThemeProvider } from '@mui/material';
 import styled from '@emotion/styled';
-import theme from '@/app/style/theme';
-import Nav from '@/app/components/nav/Nav';
-import ContainerWrap from '@/app/components/layout/ContainerWrap';
+import AddIcon from '@mui/icons-material/Add';
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
+import {
+  Box,
+  Button,
+  Container,
+  createTheme,
+  Divider,
+  Icon,
+  IconButton,
+  ThemeProvider,
+} from '@mui/material';
+import Tab from '@mui/material/Tab';
+import Tabs from '@mui/material/Tabs';
+import PropTypes from 'prop-types';
+
+import NewsBox from '@/app/components/common/NewsBox';
 import SubBanner from '@/app/components/common/SubBanner';
 import Footer from '@/app/components/footer/Footer';
-
-import PropTypes from 'prop-types';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import NewsBox from '@/app/components/common/NewsBox';
-import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
+import ContainerWrap from '@/app/components/layout/ContainerWrap';
 import BasicModal from '@/app/components/modal/BasicModal';
-import AddIcon from '@mui/icons-material/Add';
+import Nav from '@/app/components/nav/Nav';
+import theme from '@/app/style/theme';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;

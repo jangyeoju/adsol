@@ -1,14 +1,24 @@
 'use client';
+
 import * as React from 'react';
-import { Box, Button, Container, IconButton } from '@mui/material';
-import { createTheme, Divider, Icon, ThemeProvider } from '@mui/material';
 import styled from '@emotion/styled';
-import theme from '@/app/style/theme';
-import Nav from '@/app/components/nav/Nav';
-import ContainerWrap from '@/app/components/layout/ContainerWrap';
-import Footer from '@/app/components/footer/Footer';
-import InputText from '@/app/components/common/InputText';
+import {
+  Box,
+  Button,
+  Container,
+  createTheme,
+  Divider,
+  Icon,
+  IconButton,
+  ThemeProvider,
+} from '@mui/material';
+
 import FileuploadInput from '@/app/components/common/FileuploadInput';
+import InputText from '@/app/components/common/InputText';
+import Footer from '@/app/components/footer/Footer';
+import ContainerWrap from '@/app/components/layout/ContainerWrap';
+import Nav from '@/app/components/nav/Nav';
+import theme from '@/app/style/theme';
 
 export default function Admin() {
   return (

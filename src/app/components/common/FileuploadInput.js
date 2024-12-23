@@ -1,7 +1,15 @@
 import React, { useState } from 'react';
-import { Box, Button, IconButton } from '@mui/material';
-import { createTheme, Divider, Icon, ThemeProvider } from '@mui/material';
 import styled from '@emotion/styled';
+import {
+  Box,
+  Button,
+  createTheme,
+  Divider,
+  Icon,
+  IconButton,
+  ThemeProvider,
+} from '@mui/material';
+
 import theme from '@/app/style/theme';
 
 export default function FileuploadInput({ multiple }) {

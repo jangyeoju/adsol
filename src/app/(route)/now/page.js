@@ -1,19 +1,28 @@
 'use client';
+
 import * as React from 'react';
-import { Box, Button, Container, IconButton } from '@mui/material';
-import { createTheme, Divider, Icon, ThemeProvider } from '@mui/material';
 import styled from '@emotion/styled';
-import theme from '@/app/style/theme';
-import Nav from '@/app/components/nav/Nav';
-import ContainerWrap from '@/app/components/layout/ContainerWrap';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import {
+  Box,
+  Button,
+  Container,
+  createTheme,
+  Divider,
+  Icon,
+  IconButton,
+  ThemeProvider,
+} from '@mui/material';
+// Import Swiper React components
+import { A11y, Navigation, Pagination, Scrollbar } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 import SubBanner from '@/app/components/common/SubBanner';
 import Footer from '@/app/components/footer/Footer';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import ContainerWrap from '@/app/components/layout/ContainerWrap';
+import Nav from '@/app/components/nav/Nav';
+import theme from '@/app/style/theme';
 
-// Import Swiper React components
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 // Import Swiper styles

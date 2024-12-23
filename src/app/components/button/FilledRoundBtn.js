@@ -1,8 +1,16 @@
 import * as React from 'react';
-import { Box, Button, IconButton } from '@mui/material';
-import { createTheme, Divider, Icon, ThemeProvider } from '@mui/material';
 import styled from '@emotion/styled';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import {
+  Box,
+  Button,
+  createTheme,
+  Divider,
+  Icon,
+  IconButton,
+  ThemeProvider,
+} from '@mui/material';
+
 import theme from '../../style/theme';
 
 export default function FilledRoundBtn({ text, icon, handleClick, link }) {

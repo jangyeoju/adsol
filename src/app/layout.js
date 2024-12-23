@@ -1,7 +1,10 @@
 'use client';
+
 import './globals.css';
+
 import localFont from 'next/font/local';
 import Script from 'next/script';
+
 const pretendard = localFont({
   src: '../app/style/fonts/PretendardVariable.woff2',
   display: 'swap',

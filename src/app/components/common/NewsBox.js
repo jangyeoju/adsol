@@ -1,8 +1,17 @@
-import { Box, Button, Container, IconButton } from '@mui/material';
-import { createTheme, Divider, Icon, ThemeProvider } from '@mui/material';
 import styled from '@emotion/styled';
-import theme from '@/app/style/theme';
 import { Add } from '@mui/icons-material';
+import {
+  Box,
+  Button,
+  Container,
+  createTheme,
+  Divider,
+  Icon,
+  IconButton,
+  ThemeProvider,
+} from '@mui/material';
+
+import theme from '@/app/style/theme';
 
 export default function NewsBox({ img, title, handle, edit }) {
   return (

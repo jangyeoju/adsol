@@ -1,16 +1,24 @@
 import * as React from 'react';
-import { Box, Button, IconButton } from '@mui/material';
-import { createTheme, Divider, Icon, ThemeProvider } from '@mui/material';
 import styled from '@emotion/styled';
-import theme from '@/app/style/theme';
+import CloseIcon from '@mui/icons-material/Close';
+import {
+  Box,
+  Button,
+  createTheme,
+  Divider,
+  Icon,
+  IconButton,
+  ThemeProvider,
+} from '@mui/material';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
-import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-import CloseIcon from '@mui/icons-material/Close';
+import useMediaQuery from '@mui/material/useMediaQuery';
+
+import theme from '@/app/style/theme';
 
 export default function BasicModal({ handleClose, open, text, full, img }) {
   const theme = useTheme();

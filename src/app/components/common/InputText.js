@@ -1,10 +1,19 @@
 'use client';
+
 import * as React from 'react';
-import { createTheme, Divider, Icon, ThemeProvider } from '@mui/material';
-import { Box, Button, IconButton } from '@mui/material';
 import styled from '@emotion/styled';
-import theme from '../../style/theme';
+import {
+  Box,
+  Button,
+  createTheme,
+  Divider,
+  Icon,
+  IconButton,
+  ThemeProvider,
+} from '@mui/material';
 import TextField from '@mui/material/TextField';
+
+import theme from '../../style/theme';
 
 export default function InputText({
   value,
