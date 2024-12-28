@@ -2,21 +2,12 @@
 
 import * as React from 'react';
 import styled from '@emotion/styled';
-import {
-  Box,
-  Button,
-  Container,
-  createTheme,
-  Divider,
-  Icon,
-  IconButton,
-  ThemeProvider,
-} from '@mui/material';
+import { Box, createTheme, Divider, ThemeProvider } from '@mui/material';
 
-import Footer from '@/app/components/footer/Footer';
-import ContainerWrap from '@/app/components/layout/ContainerWrap';
-import Nav from '@/app/components/nav/Nav';
-import theme from '@/app/style/theme';
+import Footer from '@/components/footer/Footer';
+import ContainerWrap from '@/components/layout/ContainerWrap';
+import Nav from '@/components/nav/Nav';
+import theme from '@/style/theme';
 
 export default function Vision() {
   const theme = createTheme({

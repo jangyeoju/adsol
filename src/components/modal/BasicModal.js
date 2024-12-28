@@ -1,26 +1,23 @@
 import * as React from 'react';
+import Image from 'next/image';
 import styled from '@emotion/styled';
 import CloseIcon from '@mui/icons-material/Close';
-import {
-  Box,
-  Button,
-  createTheme,
-  Divider,
-  Icon,
-  IconButton,
-  ThemeProvider,
-} from '@mui/material';
+import { Box, IconButton } from '@mui/material';
 import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-import theme from '@/app/style/theme';
+import theme from '@/style/theme';
 
-export default function BasicModal({ handleClose, open, text, full, img }) {
+export default function BasicModal({
+  handleClose,
+  open,
+  text,
+  description,
+  img,
+}) {
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'));
 
@@ -30,22 +27,25 @@ export default function BasicModal({ handleClose, open, text, full, img }) {
         open={open}
         onClose={handleClose}
         fullScreen={fullScreen}
+        className="flex justify-center"
         aria-labelledby="responsive-dialog-title"
       >
         <DialogTitleWrap>
           <IconButton></IconButton>
-          <DialogTitle id="responsive-dialog-title">{text}</DialogTitle>
+          <DialogTitle id="responsive-dialog-title" className="truncate">
+            {text}
+          </DialogTitle>
           <IconButton onClick={handleClose} autoFocus>
             <CloseIcon />
           </IconButton>
         </DialogTitleWrap>
-        <StyledDialogContent>
+        <StyledDialogContent className="w-full sm:w-[600px]">
           <div className="img-box">
-            <img src={img} alt={text} />
+            <Image src={img} alt={text} width={600} height={400} />
           </div>
           <div className="text-box">
             {/**상세 설명 */}
-            <p>{text}</p>
+            <p>{description}</p>
           </div>
         </StyledDialogContent>
       </StyledDialog>
@@ -55,7 +55,7 @@ export default function BasicModal({ handleClose, open, text, full, img }) {
 
 const StyledDialog = styled(Dialog)`
   .MuiPaper-root {
-    max-width: 118rem !important;
+    width: 60rem;
     border-radius: 8px;
   }
   @media ${() => theme.device.tablet} {

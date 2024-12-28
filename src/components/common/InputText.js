@@ -2,15 +2,7 @@
 
 import * as React from 'react';
 import styled from '@emotion/styled';
-import {
-  Box,
-  Button,
-  createTheme,
-  Divider,
-  Icon,
-  IconButton,
-  ThemeProvider,
-} from '@mui/material';
+import { createTheme, ThemeProvider } from '@mui/material';
 import TextField from '@mui/material/TextField';
 
 import theme from '../../style/theme';
@@ -22,6 +14,7 @@ export default function InputText({
   readOnly,
   multiline,
   disabled,
+  onChange,
 }) {
   const theme = createTheme({
     typography: {
@@ -44,6 +37,7 @@ export default function InputText({
           placeholder={placeholder}
           readOnly={readOnly}
           disabled={disabled}
+          onChange={onChange}
         />
       ) : (
         <StyledTextField
@@ -54,6 +48,7 @@ export default function InputText({
           placeholder={placeholder}
           readOnly={readOnly}
           disabled={disabled}
+          onChange={onChange}
         />
       )}
     </ThemeProvider>

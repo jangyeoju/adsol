@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import styled from '@emotion/styled';
 import {
@@ -10,7 +12,7 @@ import {
   ThemeProvider,
 } from '@mui/material';
 
-import theme from '@/app/style/theme';
+import theme from '@/style/theme';
 
 export default function FileuploadInput({ multiple }) {
   return (
