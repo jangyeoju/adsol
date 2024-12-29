@@ -6,6 +6,7 @@ import Spinner from './Spinner';
 
 const UploadableImage = ({ src, promise, onDelete }) => {
   const [isUploading, setIsUploading] = useState(false);
+
   useEffect(() => {
     if (!promise) return;
     setIsUploading(true);

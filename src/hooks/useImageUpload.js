@@ -4,7 +4,7 @@ import { createClient } from '@/lib/supabase/client';
 
 export const useImageUpload = () => {
   const [uploadPromise, setUploadPromises] = useState(null);
-
+  let promise = null;
   async function uploadImages(files) {
     const supabase = createClient();
 
