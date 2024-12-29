@@ -16,7 +16,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '../ui/dialog';
+} from '@/components/ui/Dialog';
 
 export default function NewsBox({ id, img, title, onClick, edit }) {
   const { removeArticle } = useArticlesContext();

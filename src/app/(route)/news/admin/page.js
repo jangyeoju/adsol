@@ -2,7 +2,7 @@ import * as React from 'react';
 import Link from 'next/link';
 import AddIcon from '@mui/icons-material/Add';
 
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/Button';
 import ArticleList from '@/components/pages/news/ArticleList';
 import NewsPageTemplate from '@/components/pages/news/NewsPageTemplate';
 

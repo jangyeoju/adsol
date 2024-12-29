@@ -11,7 +11,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select';
+} from '@/components/ui/Select';
 import { TextArea } from '@/components/ui/TextArea';
 import ImageUploader from '@/components/common/ImageUploader';
 
