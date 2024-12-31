@@ -8,6 +8,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import Divider from '@mui/material/Divider';
 
 import theme from '@/style/theme';
 
@@ -16,7 +17,7 @@ export default function BasicModal({
   open,
   text,
   description,
-  img,
+  img
 }) {
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'));
@@ -40,6 +41,10 @@ export default function BasicModal({
           </IconButton>
         </DialogTitleWrap>
         <StyledDialogContent className="w-full sm:w-[600px]">
+          <div className="img-box">
+            <Image src={img} alt={text} width={600} height={400} />
+          </div>
+          {/* 상세이미지 */}
           <div className="img-box">
             <Image src={img} alt={text} width={600} height={400} />
           </div>
@@ -99,20 +104,26 @@ const DialogTitleWrap = styled(Box)`
 const StyledDialogContent = styled(DialogContent)`
   height: 55rem;
   max-height: 70rem;
-
   overflow-y: scroll;
   padding: 2rem;
   font-size: 1.6rem;
   color: #888888;
   line-height: 150%;
+
   .img-box {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
     img {
       width: 100%;
     }
+  }
+  .img-box:first-of-type {
+    margin-top: 0;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
   .text-box {
     margin-top: 2rem;
