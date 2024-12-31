@@ -122,8 +122,6 @@ const StyledDialogContent = styled(DialogContent)`
   }
   .img-box:first-of-type {
     margin-top: 0;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
   .text-box {
     margin-top: 2rem;
