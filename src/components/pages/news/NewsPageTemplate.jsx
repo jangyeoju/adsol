@@ -157,6 +157,10 @@ const StyledCustomTabPanel = styled(CustomTabPanel)`
     flex-wrap: wrap;
     gap: 1rem;
   }
+  svg {
+    width: 2rem;
+    height: 2rem;
+  }
 `;
 
 const NoneBox = styled(Box)`
