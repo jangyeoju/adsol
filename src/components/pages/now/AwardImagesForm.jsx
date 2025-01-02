@@ -46,7 +46,6 @@ const AwardImagesForm = ({ initialValue }) => {
                 await Promise.all(awardImages.map((image) => image.promise))
               ).map((image) => image.publicUrl);
 
-              console.log({ urls });
               await supabase
                 .from('image_list')
                 .update({

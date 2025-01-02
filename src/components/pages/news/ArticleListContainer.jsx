@@ -8,6 +8,7 @@ import ArticleItem from './ArticleItem';
 
 const ArticleListContainer = ({ editable }) => {
   const { articles } = useArticlesContext();
+
   return (
     <>
       <div className="grid w-full grid-cols-auto-fill-270 gap-4">
@@ -18,6 +19,7 @@ const ArticleListContainer = ({ editable }) => {
             title={article.title}
             img={article.thumbnail_url}
             description={article.description}
+            detailImages={article.detail_image_urls}
             editable={editable}
           />
         ))}

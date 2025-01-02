@@ -5,8 +5,16 @@ import { useState } from 'react';
 import NewsBox from '@/components/common/NewsBox';
 import BasicModal from '@/components/modal/BasicModal';
 
-const ArticleItem = ({ id, img, title, description, editable }) => {
+const ArticleItem = ({
+  id,
+  img,
+  title,
+  description,
+  detailImages,
+  editable,
+}) => {
   const [open, setOpen] = useState(false);
+
   return (
     <>
       <NewsBox
@@ -21,6 +29,7 @@ const ArticleItem = ({ id, img, title, description, editable }) => {
         text={title}
         description={description}
         img={img}
+        detailImages={detailImages}
         handleClose={() => setOpen(false)}
       />
     </>

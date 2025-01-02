@@ -4,10 +4,6 @@ import styled from '@emotion/styled';
 import { Add } from '@mui/icons-material';
 import { Box, IconButton } from '@mui/material';
 
-import { useArticlesContext } from '@/contexts/ArticlesContext';
-import theme from '@/style/theme';
-
-import { Button } from '../ui/Button';
 import {
   Dialog,
   DialogClose,
@@ -17,6 +13,10 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/Dialog';
+import { useArticlesContext } from '@/contexts/ArticlesContext';
+import theme from '@/style/theme';
+
+import { Button } from '../ui/Button';
 
 export default function NewsBox({ id, img, title, onClick, edit }) {
   const { removeArticle } = useArticlesContext();

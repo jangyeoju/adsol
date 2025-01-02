@@ -9,6 +9,7 @@ const ArticleList = async ({ category, editable }) => {
     .from('articles')
     .select()
     .eq('category', category)
+    .order('id', { ascending: true })
     .order('order', { ascending: true });
 
   return (
