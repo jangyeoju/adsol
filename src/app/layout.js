@@ -26,8 +26,12 @@ export default function RootLayout({ children }) {
         lang="en"
         className={`${pretendard.className} ${montserrat.className}`}
       >
+        <head>
+          <meta name="naver-site-verification" content="bc5dde5edbbb6eb963169a2a2b3cd633f3e383c6" />
+        </head>
         <body>
-          <Script></Script>
+          <Script>
+          </Script>
           <script
             type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkNBxTatAowreaA0jgD4IqFy741UJnCL0&loading=async&region=EN&language=en"
