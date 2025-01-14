@@ -493,7 +493,7 @@ const CompanyHistoryWrap = styled(Box)`
     color: ${() => theme.colors.textColor};
     line-height: 150%;
     text-align: left;
-    line-break: anywhere;
+    line-break: auto;
   }
   .sub-title-text {
     font-size: 2rem;
@@ -553,7 +553,7 @@ const InvestmentWrap = styled(Box)`
     color: #fff;
     line-height: 150%;
     text-align: left;
-    line-break: anywhere;
+    line-break: auto;
   }
   .sub-title-text {
     font-size: 2rem;
@@ -688,7 +688,7 @@ const PremierWrap = styled(Box)`
     color: ${() => theme.colors.textColor};
     line-height: 150%;
     text-align: center;
-    line-break: anywhere;
+    line-break: auto;
   }
   .sub-title-text {
     font-size: 2rem;

@@ -177,7 +177,7 @@ const MainWrap = styled(Box)`
     color: ${() => theme.colors.textColor};
     line-height: 150%;
     text-align: center;
-    line-break: anywhere;
+    line-break: auto;
     strong {
       color: ${() => theme.colors.primary2};
       font-size: 4rem;
@@ -490,7 +490,7 @@ const ServiceBoxList = styled(Box)`
     }
     .service-list {
       .service-box {
-        /* width: 48%; */
+        width: 48%;
         height: 18rem;
         padding: 2rem;
         h2 {

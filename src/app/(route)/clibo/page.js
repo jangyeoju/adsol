@@ -511,6 +511,9 @@ const ProductWrap = styled(Box)`
     .sub-title {
       font-size: 2.8rem;
       padding: 0 2rem;
+      br{
+        display : none;
+      }
     }
     .sub-title-detail {
       font-size: 1.6rem;
@@ -539,9 +542,9 @@ const ProductWrap = styled(Box)`
   }
   @media ${() => theme.device.mobile3} {
     .sub-title {
-      font-size: 2.2rem;
+      font-size: 2.4rem;
       strong {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
       }
     }
     .sub-title-detail {
@@ -581,7 +584,7 @@ const BackgroundBanner = styled(Box)`
     }
   }
   @media ${() => theme.device.tablet} {
-    padding: 8rem 0;
+    padding: 5rem 0;
     & > div {
       flex-direction: column;
       align-items: flex-start;
@@ -597,6 +600,9 @@ const BackgroundBanner = styled(Box)`
       h2 {
         font-size: 2.4rem;
         text-align: center;
+        br{
+            display : none;
+        }
         strong {
           font-size: 2.4rem;
         }
@@ -843,7 +849,7 @@ const SolutionWrap = styled(Box)`
   }
 
   @media ${() => theme.device.mobile} {
-    padding: 8rem 0;
+    padding: 5rem 0;
     p {
       font-size: 1.6rem;
     }

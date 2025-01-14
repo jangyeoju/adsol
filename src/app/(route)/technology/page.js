@@ -513,7 +513,7 @@ const TechnologyWrap = styled(Box)`
         height: auto;
         p {
           font-size: 1.4rem;
-          line-break: anywhere;
+          line-break: auto;
           br {
             display: none;
           }
@@ -609,7 +609,7 @@ const ModuleWrap = styled(Box)`
         font-size: 1.6rem;
         br {
           display: none;
-          line-break: anywhere;
+          line-break: auto;
         }
       }
       .product-img {
@@ -758,7 +758,7 @@ const TechnologySection1 = styled(Box)`
         }
         p {
           font-size: 1.6rem;
-          line-break: anywhere;
+          line-break: auto;
           br {
             display: none;
           }
@@ -942,7 +942,7 @@ const TechnologySection2 = styled(Box)`
         }
         p {
           font-size: 1.6rem;
-          line-break: anywhere;
+          line-break: auto;
           br {
             display: none;
           }
@@ -1236,7 +1236,7 @@ const TechnologySection3 = styled(Box)`
         }
         p {
           font-size: 1.6rem;
-          line-break: anywhere;
+          line-break: auto;
           br {
             display: none;
           }
@@ -1294,6 +1294,7 @@ const TechnologySection3 = styled(Box)`
     .tech-box-wrap {
       .tech-box {
         .tech-box-title {
+          height : 18rem;
           h2 {
             font-size: 1.8rem;
           }
@@ -1304,6 +1305,11 @@ const TechnologySection3 = styled(Box)`
       margin: 3rem 0 5rem 0;
       .rays-banner {
         padding: 5rem 0;
+        p{
+          br{
+            display : none;
+          }
+        }
         .rays-img-box-wrap {
           margin: 5rem 0;
         }
