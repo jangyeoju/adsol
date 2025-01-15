@@ -21,7 +21,7 @@ import Footer from '../components/footer/Footer';
 import ContainerWrap from '../components/layout/ContainerWrap';
 import Nav from '../components/nav/Nav';
 import theme from '../style/theme';
-
+import Meta from '../components/common/Meta';
 
 export default function Home() {
   const theme = createTheme({
@@ -37,6 +37,7 @@ export default function Home() {
 
   return (
     <ThemeProvider theme={theme}>
+      <Meta title="Advance Solution" description="Advance Solution" ogImage="/img/main/main_background.png" />
       <Nav />
       <MainWrap>
         <div className="main-background">
