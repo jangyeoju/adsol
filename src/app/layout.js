@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 
 import './globals.css';
 
@@ -18,6 +18,17 @@ const montserrat = localFont({
   variable: '--font-montserrat',
 });
 
+export const metadata = {
+  title: 'Advance Solution',
+  description: 'Advance Solution Official Website',
+  openGraph: {
+    title: 'Advance Solution',
+    description: 'Advance Solution Official Website',
+    images: ['/img/adsol.png'],
+  },
+};
+
+
 export default function RootLayout({ children }) {
   return (
     <>
@@ -26,7 +37,7 @@ export default function RootLayout({ children }) {
         className={`${pretendard.className} ${montserrat.className}`}
       >
         <head>
-          <meta name="naver-site-verification" content="bc5dde5edbbb6eb963169a2a2b3cd633f3e383c6" />
+          <meta name="naver-site-verification" content="e3c944298beaef6abc99bb93ec087976e256be06" />
         </head>
         <body>
           <script
