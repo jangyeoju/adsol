@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
         className={`${pretendard.className} ${montserrat.className}`}
       >
         <head>
-          <meta name="naver-site-verification" content="e3c944298beaef6abc99bb93ec087976e256be06" />
+        <meta name="naver-site-verification" content="76f16849b7cb8f77cdaf7df2668cd549c47774f1" />
         </head>
         <body>
           <script
